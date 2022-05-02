@@ -1,0 +1,40 @@
+.sliderLayoutContainer--shelf {
+    width: 100% !important;
+}
+.sliderLayoutContainer {
+    justify-content: center;
+}
+.sliderTrackContainer {
+    max-width: 1520px;
+}
+.paginationDotsContainer {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.layoutContainer--shelf {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 96rem;
+}
+.slide--shelf {
+    border: 1px solid #e7e6ec;
+    margin: 0.5rem;
+    margin-bottom: 25px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.caretIcon--container-slider-new-home {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.imageElement--container-slider-search {
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    padding: 0;
+}
+.imageElement--container-slider-faq {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}

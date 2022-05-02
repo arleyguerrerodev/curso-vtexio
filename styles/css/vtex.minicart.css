@@ -1,0 +1,39 @@
+.minicartQuantityBadge {
+    background-color: #2d9cdb;
+}
+.opernIconContainer:not(:hover) {
+    background-color: none;
+}
+
+.minicartContainer :global(.vtex-button) {
+    background-color: transparent;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .minicartCheckoutButton :global(.vtex-button) {
+        border: none;
+        border-radius: 50px;
+
+        background-color: #bd0071;
+    }
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+  background-color: white;
+  border: 2px solid #009ee3;
+  border-radius: 50px;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button__label){
+  color: black;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button):hover{
+  background-color: black;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover :global(.vtex-button__label){
+  color: white;
+}

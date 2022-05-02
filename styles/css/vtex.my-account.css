@@ -1,0 +1,73 @@
+
+.boxContainer {
+    border: 1px solid #606060;
+}
+
+.boxContainerFooter {
+    margin-bottom: 4%;
+    margin-right: 4%;
+}
+
+.passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
+    background-color: #009ee3;
+    color: white;
+
+    border-radius: 50px;
+}
+
+.profileBoxContainer .boxContainerFooter {
+    justify-content: center;
+}
+
+.profileBoxContainer .boxContainerFooter :global(.vtex-button) {
+    background-color: transparent;
+    color: black;
+
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+.passwordBox :global(.vtex-checkbox__inner-container) {
+    border: none;
+    background-color: #009ee3 !important;
+}
+
+.userImage {
+    display: none;
+}
+
+.userGreeting {
+    text-transform: uppercase;
+}
+
+.userName {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.addressCreate :global(.vtex-button) {
+    border: none;
+    background-color: #009ee3;
+    color: white;
+    border-radius: 50px;
+}
+
+.addressBox .boxContainerFooter :global(.vtex-button) {
+    background-color: transparent;
+    color: black;
+
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .boxContainer {
+        width: 96%;
+        margin-left: 6px;
+    }
+
+    .boxContainerBody {
+        padding-left: 8%;
+    }
+}
+

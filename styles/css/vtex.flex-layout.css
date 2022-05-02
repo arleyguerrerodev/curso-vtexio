@@ -1,0 +1,467 @@
+.flexCol--quickviewDetails {
+    margin-top: 1.5rem;
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+    padding: 0 0.5rem;
+}
+
+.flexRowContent--contact {
+    max-width: 700px;
+    margin: auto;
+}
+
+.flexRowContent--contact :global(.vtex-input__label),
+.flexRowContent--contact :global(.vtex-textarea__label) {
+    font-size: 1rem;
+    color: #3f3f40;
+}
+
+.flexColChild--label-input-text :global(.vtex-checkbox__label) {
+    font-size: 0.8rem;
+}
+.flexColChild--label-input-text {
+    margin-bottom: 2rem;
+}
+
+.flexColChild--label-input-text :global(.vtex-input__label),
+.flexColChild--label-input-text :global(.vtex-textarea__label) {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.flexRowContent--contact :global(.vtex-input),
+.flexRowContent--contact :global(.vtex-textarea) {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.flexRowContent--faq {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.flexRowContent--registration__form {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.flexColChild--checkbox-contact
+    :global(.vtex-checkbox__line-container)
+    :global(.vtex-checkbox__inner-container) {
+    border-radius: 50%;
+}
+
+.flexColChild--required :global(.vtex-input) :global(.vtex-input__label)::after,
+.flexColChild--required
+    :global(.vtex-textarea)
+    :global(.vtex-textarea__label)::after {
+    content: "*";
+    margin-left: 0.5rem;
+    color: #2d9cdb;
+}
+
+.flexRow--productSpecificationGroup:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.flexRow--productSpecificationGroupName {
+    background-color: #eaeaea;
+    padding: 0.5rem 1rem;
+}
+
+.flexCol--productSpecificationName {
+    padding: 1rem;
+}
+
+.flexCol--productSpecificationValue {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.flexRow--productSpecification:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.flexRow--orderByAndSwitcher {
+    padding-right: 1.5em;
+}
+
+.flexRowContent--savingsSummaryListDesktop {
+    justify-content: flex-start;
+}
+
+.flexCol--summaryRightListDesktop {
+    justify-content: space-around;
+}
+.flexRow--addCartList :global(.vtex-button) {
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #009ee3;
+    color: #000;
+    border-radius: 60px;
+    height: 30px;
+    max-width: 30rem;
+}
+.flexRow--addCartList :global(.vtex-button):hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    max-width: 30rem;
+}
+
+.flexRowContent--buyRightNow {
+    align-items: center;
+}
+
+.flexCol--productRating {
+    margin-bottom: 3rem;
+}
+
+.flexCol--summaryDetailsListMobile {
+    justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+    margin-bottom: 0.25rem;
+}
+
+.flexRowContent--product-details {
+    width: 90%;
+    margin-left: 7%;
+}
+
+@media screen and (min-width: 40em) {
+    .flexRowContent--menu-link,
+    .flexRowContent--main-header {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .flexRowContent--menu-link,
+    .flexRowContent--main-header {
+        padding: 0 0.25rem;
+    }
+}
+
+.flexColChild--logo-desktop {
+    margin-right: 4rem;
+}
+
+.flexRowContent--menu-link {
+    background-color: #ffffff;
+    box-shadow: 0px 9px 9px 0px rgb(0 0 0 / 10%);
+}
+
+.flexRowContent--main-header {
+    background-color: #ffffff;
+}
+
+.flexRowContent--main-header-mobile {
+    align-items: center;
+    padding: 0.625rem 0.5rem;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+    color: #000000;
+    font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+    color: #000000;
+    font-size: 14px;
+}
+.flexRow--deals {
+    background-color: #a7afbd;
+    padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+    align-items: center;
+}
+
+.flexRow--deals .flexCol {
+    align-items: center;
+}
+
+.flexCol--filterCol {
+    max-width: 300px;
+    min-width: 130px;
+    margin-left: 6.5rem;
+    width: 17rem;
+}
+
+.flexCol--filterCol :global(.vtex-checkbox__inner-container) {
+    border: 1px solid #0086d6;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+.flexCol--productCountCol {
+    align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+    align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+    width: 42%;
+    height: 30px;
+    border: 1px solid #06069f !important;
+    background-color: #1d1d1b !important;
+    border-radius: 60px !important;
+}
+
+.flexCol--filterMobileCol {
+    width: 38%;
+    background-color: #1d1d1b;
+    border: 1px solid #06069f;
+    border-radius: 60px;
+}
+.flexCol--filterMobileCol:first-child {
+    color: #bd0071;
+}
+
+.flexRow--addToCartRow {
+    padding-bottom: 1rem;
+}
+
+.flexRowContent--menu-row {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.flexRowContent--menu-row .stretchChildrenWidth {
+    justify-content: flex-start;
+    width: auto !important;
+}
+
+.flexColChild--logo-footer {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+
+.flexColChild--logo-footer :global(.vtex-store-components-3-x-logoLink) {
+    align-self: center;
+}
+
+.flexRowContent--top-header {
+    background-color: #bd0071;
+    height: 30px;
+}
+
+.flexRow--promises-container {
+    margin: 4.4rem;
+}
+
+.flexRow--promises-container :global(.vtex-store-components-3-x-container) {
+    max-width: 1240px;
+}
+
+.flexRow--newsletter-form-container {
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flexColChild--center-col-new-home-left {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.7rem;
+}
+
+.flexColChild--center-col-new-home-right {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0.7rem;
+}
+
+.flexColChild--banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flexColChild--container-categories-mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.stretchChildrenWidth--search-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flexColChild--container-benefits {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.flexColChild--container-benefits-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.flexRow--container-promotion {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.flexRow :global(.vtex-flex-layout-10-x-flexRow--container-promotion) {
+    display: flex;
+    justify-content: center;
+}
+
+.flexColChild--filterCol {
+    margin: 0 2rem;
+    height: min-content !important;
+}
+
+.flexRowContent--confirmationButtons {
+    display: none;
+}
+
+.flexRow--submenu-image {
+    margin-left: 12rem;
+    margin-top: -8.7rem;
+}
+
+.flexRow--submenu-image-kids {
+    margin-left: 12rem;
+    margin-top: -10.7rem;
+}
+
+.flexRow--footer-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin-top: -31px;
+}
+
+.flexRowContent--footer-buttom .stretchChildrenWidth {
+    width: auto !important;
+    align-items: center;
+}
+
+.flexRow--menu-row {
+    height: 265px;
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .flexRowContent--items-mobile::before {
+        display: flex;
+        position: relative;
+        content: "";
+        width: 1px;
+        height: 2.375rem;
+        background-color: white;
+        left: 45%;
+    }
+
+    .flexColChild--logo-footer {
+        justify-content: center;
+    }
+
+    .flexRowContent--button-cart :global(.vtex-button) {
+        background-color: transparent;
+        color: #000;
+        border-color: #009ee3;
+        border-radius: 50px;
+    }
+
+    .flexRowContent--button-cart :global(.vtex-button__label) {
+        content: "";
+        visibility: hidden;
+    }
+
+    .flexRowContent--button-cart :global(.vtex-button__label)::before {
+        content: "Agregar";
+        visibility: visible;
+        justify-content: center;
+    }
+
+    .flexRowContent--button-cart .stretchChildrenWidth {
+        justify-content: flex-start;
+    }
+
+    .flexRowContent--button-cart .stretchChildrenWidth :global(.vtex-button) {
+        width: 60%;
+    }
+
+    .flexRowContent--price-product {
+        justify-content: flex-start;
+    }
+
+    .flexRowContent--main-header-mobile {
+        justify-content: space-between;
+    }
+}
+
+.flexRowContent--row-icons-mobile {
+    display: flex;
+}
+
+.flexRowContent--add-to-cart-container :global(.vtex-button) {
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #009ee3;
+    color: #000;
+    border-radius: 60px;
+    height: 30px;
+    max-width: 30rem;
+    width: 9.063rem;
+    margin: auto;
+}
+
+.flexRowContent--add-to-cart-container :global(.vtex-button):hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 60px;
+    border: 2px solid #000;
+}
+
+.flexRowContent--add-to-cart-container :global(.vtex-button)::before {
+    content: "\e901";
+    font-family: "icomoon";
+    font-size: 20px;
+    font-weight: normal;
+    right: 15px;
+    position: absolute;
+    top: 9px;
+}
+
+.flexRowContent--addToCartQuickView .stretchChildrenWidth {
+    justify-content: center !important;
+}
+
+.flexRowContent--row-prices-home :global(.vtex-product-price-1-x-listPrice) {
+    padding-top: 0.2rem;
+    padding-right: 4.5rem;
+}
+
+.flexRowContent--row-prices-home {
+    justify-content: center;
+}
+
+.flexRowContent--row-prices-home .stretchChildrenWidth {
+    width: auto !important;
+}
+
+.flexRowContent--menu-row {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+{
+    "store.custom#store-locator": {
+        "blocks": [
+            "flex-layout.row#store-locator-text",
+            "flex-layout.row#store-locator"
+        ]
+    },
+    "flex-layout.row#store-locator-text": {
+        "children": ["rich-text#store-locator"]
+    },
+    "rich-text#store-locator": {
+        "props": {
+            "text": "**Localizado de tiendas**\nEncuentra nuestas tiendas físicas en Colombia y sus respectivos horarios.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#store-locator": {
+        "children": ["store-locator"]
+    }
+}

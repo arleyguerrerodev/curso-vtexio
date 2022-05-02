@@ -1,0 +1,155 @@
+{
+    //SUBMENU HOMBRE
+    "vtex.menu@2.x:submenu#hombre": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-hombre",
+            "flex-layout.row#menu-hombre",
+            "flex-layout.row#ropa-hombre"
+        ]
+    },
+
+    "flex-layout.row#ropa-hombre": {
+        "props": {
+            "blockClass": "submenu-image"
+        },
+
+        "children": ["flex-layout.col#ropa-hombre"]
+    },
+
+    "flex-layout.col#ropa-hombre": {
+        "children": ["image#ropa-hombre"]
+    },
+
+    "image#ropa-hombre": {
+        "props": {
+            "src": "https://moda-hombre.com/wp-content/uploads/2020/07/Mejores-Marcas-de-Ropa-para-Hombre.jpg",
+            "maxHeight": 320,
+            "maxWidth": 410
+        }
+    },
+
+    "flex-layout.row#menu-hombre": {
+        "props": {
+            "blockClass": "lista-submenus"
+        },
+        "children": ["flex-layout.col#hombre-col1"]
+    },
+    "rich-text#title-departamento-hombre": {
+        "props": {
+            "blockClass": ["titulo-departamento"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Hombre](/moda/hombre)"
+        }
+    },
+    "flex-layout.col#hombre-col1": {
+        "children": ["vtex.menu@2.x:menu#hombre-col1"]
+    },
+
+    //SUBMENU MUJER
+
+    "vtex.menu@2.x:submenu#mujer": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-mujer",
+            "flex-layout.row#menu-mujer",
+            "flex-layout.row#ropa-mujer"
+        ]
+    },
+
+    "flex-layout.row#ropa-mujer": {
+        "props": {
+            "blockClass": "submenu-image"
+        },
+
+        "children": ["flex-layout.col#ropa-mujer"]
+    },
+
+    "flex-layout.col#ropa-mujer": {
+        "children": ["image#ropa-mujer"]
+    },
+
+    "image#ropa-mujer": {
+        "props": {
+            "src": "https://i.ytimg.com/vi/ZTF44KIgC-8/maxresdefault.jpg",
+            "maxHeight": 320,
+            "maxWidth": 410
+        }
+    },
+
+    "flex-layout.row#menu-mujer": {
+        "props": {
+            "blockClass": "lista-submenus"
+        },
+        "children": ["flex-layout.col#mujer-col1"]
+    },
+    "rich-text#title-departamento-mujer": {
+        "props": {
+            "blockClass": ["titulo-departamento"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Mujer](/moda/mujer)"
+        }
+    },
+    "flex-layout.col#mujer-col1": {
+        "children": ["vtex.menu@2.x:menu#mujer-col1"]
+    },
+
+    //SUBMENU NIÑOS
+
+    "vtex.menu@2.x:submenu#niños": {
+        "props": {
+            "blockClass": ["submenu-principal"],
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#title-departamento-niños",
+            "flex-layout.row#menu-niños",
+            "flex-layout.row#ropa-niños"
+        ]
+    },
+
+    "flex-layout.row#ropa-niños": {
+        "props": {
+            "blockClass": "submenu-image-kids"
+        },
+
+        "children": ["flex-layout.col#ropa-niños"]
+    },
+
+    "flex-layout.col#ropa-niños": {
+        "children": ["image#ropa-niños"]
+    },
+    "image#ropa-niños": {
+        "props": {
+            "src": "https://www.chiquipedia.com/imagenes/10-combinaciones-de-color-para-la-ropa-de-los-ninos.jpg",
+            "maxHeight": 320,
+            "maxWidth": 410
+        }
+    },
+
+    "flex-layout.row#menu-niños": {
+        "props": {
+            "blockClass": "lista-submenus"
+        },
+        "children": ["flex-layout.col#niños-col1"]
+    },
+    "rich-text#title-departamento-niños": {
+        "props": {
+            "blockClass": ["titulo-departamento"],
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "[Niños](/moda/niños)"
+        }
+    },
+    "flex-layout.col#niños-col1": {
+        "children": ["vtex.menu@2.x:menu#niños-col1"]
+    }
+}

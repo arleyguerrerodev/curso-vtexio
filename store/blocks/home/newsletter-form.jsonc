@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#newsletter-form": {
+        "props": {
+            "blockClass": "newsletter-form-container"
+        },
+        "children": ["flex-layout.col#newsletter-input"]
+    },
+    "flex-layout.row#title": {
+        "children": ["rich-text#title", "rich-text#longtext"]
+    },
+    "flex-layout.col#newsletter-input": {
+        "props": { "blockClass": "newsletter-input-container" },
+        "children": [
+            "rich-text#title",
+            "rich-text#longtext",
+            "newsletter-form",
+            "rich-text#answer-you"
+        ]
+    },
+    "newsletter-form": {
+        "children": [
+            // "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-submit"
+        ]
+    },
+
+    "rich-text#title": {
+        "props": {
+            "text": "¡Contáctanos!",
+            "textPosition": "CENTER",
+            "blockClass": "contact-us"
+        }
+    },
+    "rich-text#longtext": {
+        "props": {
+            "text": "¿Quieres hablar con el equipo de ventas? o Prefieres escribirnos a **sales@blacksip.com** ",
+            "textPosition": "CENTER",
+            "blockClass": "long-text"
+        }
+    },
+    "rich-text#answer-you": {
+        "props": {
+            "text": "TE RESPONDEMOS EN MENOS **DE 24H**",
+            "textPosition": "CENTER",
+            "blockClass": "answer"
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "input-email",
+            "placeholderText": "Email"
+        }
+    },
+
+    "newsletter-submit": {
+        "props": {
+            "blockClass": "button-suscribe",
+            "submitButtonLabel": "Enviar"
+        }
+    }
+}

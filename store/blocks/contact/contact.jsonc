@@ -1,0 +1,226 @@
+{
+    "store.custom#contact": {
+        "blocks": [
+            "list-context.image-list#contact",
+            "flex-layout.row#registration_tittle",
+            "flex-layout.row#registration__form"
+        ]
+    },
+    "list-context.image-list#contact": {
+        "children": ["slider-layout#slider-faq"],
+        "props": {
+            "blockClass": "img-banner-faq",
+            "images": [
+                {
+                    "image": "assets/contact/contact-img.png",
+                    "mobileImage": "assets/search/img-search-mobile.png"
+                }
+            ]
+        }
+    },
+    "flex-layout.row#registration_tittle": {
+        "children": ["flex-layout.col#registration-tittle"],
+        "props": {
+            "marginBottom": 9,
+            "marginTop": 4,
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#registration-tittle": {
+        "children": [
+            "rich-text#registration__title",
+            "rich-text#registration__text"
+        ]
+    },
+    "rich-text#registration__title": {
+        "props": {
+            "text": "# Formulario de Contacto",
+            "textPosition": "CENTER",
+            "blockClass": "text-title-contact"
+        }
+    },
+    "rich-text#registration__text": {
+        "props": {
+            "text": "Ingresando tus datos nos pondremos en contacto contigo.",
+            "textPosition": "CENTER",
+            "blockClass": "text-subTitle-contact"
+        }
+    },
+    "flex-layout.row#registration__form": {
+        "children": ["flex-layout.col#registration__form"],
+        "props": {
+            "blockClass": ["registration__form"]
+        }
+    },
+    "flex-layout.col#registration__form": {
+        "children": ["form#registration__form"]
+    },
+    "form#registration__form": {
+        "props": {
+            "entity": "CO",
+            "schema": "schema-v-1"
+        },
+        "children": ["flex-layout.row#form"],
+        "blocks": ["form-success"]
+    },
+
+    "flex-layout.row#form": {
+        "children": ["flex-layout.col#form"]
+    },
+
+    "flex-layout.col#form": {
+        "children": ["flex-layout.row#form__section--contact"],
+        "props": {
+            "rowGap": 7
+        }
+    },
+    "flex-layout.row#form__section--contact": {
+        "children": ["flex-layout.col#form__section--contact"]
+    },
+    "flex-layout.col#form__section--contact": {
+        "children": [
+            "flex-layout.row#form__fullName",
+            "flex-layout.row#form__email-city",
+            "flex-layout.row#form__subject",
+            "flex-layout.row#form__messageContact",
+            "flex-layout.row#form__terms",
+            "flex-layout.row#form__submit"
+        ],
+        "props": {
+            "rowGap": 3
+        }
+    },
+    "flex-layout.row#form__fullName": {
+        "children": [
+            "flex-layout.col#form--contact-left-name",
+            "flex-layout.col#form--contact-rigth-middleName"
+        ],
+        "props": {
+            "colGap": 5
+        }
+    },
+    "flex-layout.col#form--contact-left-name": {
+        "children": ["form-input.text#name"],
+        "props": {
+            "blockClass": ["label-input-text", "required"]
+        }
+    },
+    "form-input.text#name": {
+        "props": {
+            "pointer": "#/properties/name"
+        }
+    },
+    "flex-layout.col#form--contact-rigth-middleName": {
+        "children": ["form-input.text#middleName"],
+        "props": {
+            "blockClass": ["label-input-text", "required"]
+        }
+    },
+    "form-input.text#middleName": {
+        "props": {
+            "pointer": "#/properties/middleName"
+        }
+    },
+    "flex-layout.row#form__email-city": {
+        "children": [
+            "flex-layout.col#form--contact-left-email",
+            "flex-layout.col#form--contact-rigth-city"
+        ],
+        "props": {
+            "colGap": 5
+        }
+    },
+    "flex-layout.col#form--contact-left-email": {
+        "children": ["form-input.text#email"],
+        "props": {
+            "rowGap": 5,
+            "blockClass": ["label-input-text", "required"]
+        }
+    },
+    "form-input.text#email": {
+        "props": {
+            "pointer": "#/properties/email"
+        }
+    },
+    "flex-layout.col#form--contact-rigth-city": {
+        "children": ["form-input.text#city"],
+        "props": {
+            "rowGap": 5,
+            "blockClass": ["label-input-text", "required"]
+        }
+    },
+    "form-input.text#city": {
+        "props": {
+            "pointer": "#/properties/city"
+        }
+    },
+    "flex-layout.row#form__subject": {
+        "children": ["flex-layout.col#form--contact-subject"],
+        "props": {
+            "colGap": 5,
+            "blockClass": "label-input-text"
+        }
+    },
+    "flex-layout.col#form--contact-subject": {
+        "children": ["form-input.text#subject"],
+        "props": {
+            "rowGap": 5,
+            "blockClass": "label-input-text"
+        }
+    },
+    "form-input.text#subject": {
+        "props": {
+            "pointer": "#/properties/subject"
+        }
+    },
+    "flex-layout.row#form__messageContact": {
+        "children": ["flex-layout.col#form--contact-messageContact"],
+        "props": {
+            "colGap": 5,
+            "blockClass": "label-input-text"
+        }
+    },
+    "flex-layout.col#form--contact-messageContact": {
+        "children": ["form-input.textarea#messageContact"],
+        "props": {
+            "rowGap": 5,
+            "blockClass": ["label-input-text", "required"]
+        }
+    },
+    "form-input.textarea#messageContact": {
+        "props": {
+            "pointer": "#/properties/messageContact"
+        }
+    },
+    "flex-layout.row#form__terms": {
+        "children": ["flex-layout.col#form--terms"],
+        "props": {
+            "colGap": 5,
+            "blockClass": ["label-input-text"]
+        }
+    },
+    "flex-layout.col#form--terms": {
+        "children": ["form-input.checkbox#accept"],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "checkbox-contact"
+        }
+    },
+    "form-input.checkbox#accept": {
+        "props": {
+            "pointer": "#/properties/accept"
+        }
+    },
+    "flex-layout.row#form__submit": {
+        "children": ["flex-layout.col#form--submit"]
+    },
+    "flex-layout.col#form--submit": {
+        "children": ["form-submit"]
+    },
+    "form-submit": {
+        "props": {
+            "label": "Enviar",
+            "blockClass": "button-submit-contact"
+        }
+    }
+}

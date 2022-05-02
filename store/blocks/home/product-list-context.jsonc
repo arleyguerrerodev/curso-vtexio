@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#product-list":{
+        "children":[
+            "list-context.product-list#products-slider-one"
+        ]
+    },
+    "list-context.product-list#products-slider-one":{
+        "blocks":[
+            "product-summary.shelf#products-slider-one"
+        ],
+        "children":[
+            "slider-layout"
+        ]
+    },
+    "product-summary.shelf#products-slider-one":{
+        "children":[
+            "product-summary-brand",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space"
+        ]
+    }
+}

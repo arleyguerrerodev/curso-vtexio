@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#benefits#search": {
+        "children": ["flex-layout.col#search"]
+    },
+    "flex-layout.col#search": {
+        "children": [
+            "responsive-layout.desktop#desktop-search-benefits",
+            "responsive-layout.mobile#mobile-search-benefits"
+        ]
+    },
+    "responsive-layout.desktop#desktop-search-benefits": {
+        "children": ["flex-layout.row#services-desktop"]
+    },
+    "responsive-layout.mobile#mobile-search-benefits": {
+        "children": ["flex-layout.col#benefits-search-desktop"]
+    },
+    "flex-layout.col#benefits-search-desktop": {
+        "children": ["flex-layout.col#benefits-search-mobile"],
+        "props": {
+            "blockClass": "container-benefits"
+        }
+    },
+    "flex-layout.col#benefits-search-mobile": {
+        "children": ["image#benefits-search-mobile"],
+        "props": {
+            "blockClass": "container-benefits-mobile"
+        }
+    },
+
+    "image#benefits-search-mobile": {
+        "props": {
+            "src": "assets/benefits/benefits_mobile.png",
+            "blockClass": "image-benefits-mobile"
+        }
+    }
+}

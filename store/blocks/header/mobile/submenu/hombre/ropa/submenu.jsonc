@@ -1,0 +1,130 @@
+{
+    "vtex.menu@2.x:submenu.accordion#submenu-hombre-ropa-mobile": {
+        "children": ["vtex.menu@2.x:menu#submenu-hombre-ropa-mobile"],
+        "props": {
+            "blockClass": "menu__levelTwo"
+        }
+    },
+
+    "vtex.menu@2.x:menu#submenu-hombre-ropa-mobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__levelTwo__container"
+        },
+        "children": [
+            "menu-item#menu-item-ropa-hombre-dpto",
+            "menu-item#menu-item-ropa-hombre-1",
+            "menu-item#menu-item-ropa-hombre-2",
+            "menu-item#menu-item-ropa-hombre-3",
+            "menu-item#menu-item-ropa-hombre-4",
+            // "menu-item#menu-item-ropa-hombre-5",
+            "menu-item#menu-item-ropa-hombre-6",
+            "menu-item#menu-item-ropa-hombre-7"
+        ]
+    },
+
+    "menu-item#menu-item-ropa-hombre-dpto": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa",
+                "noFollow": false,
+                "tagTitle": "Ver Ropa",
+                "text": "Ver Ropa"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-1": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/camisetas",
+                "noFollow": false,
+                "tagTitle": "Camisetas",
+                "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-2": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/polos",
+                "noFollow": false,
+                "tagTitle": "Polos",
+                "text": "Polos"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-3": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/sudaderas",
+                "noFollow": false,
+                "tagTitle": "Sudaderas",
+                "text": "Sudaderas"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-4": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/chaquetas",
+                "noFollow": false,
+                "tagTitle": "Chaquetas",
+                "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-5": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/buzos",
+                "noFollow": false,
+                "tagTitle": "Buzos",
+                "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-6": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/pantalonetas",
+                "noFollow": false,
+                "tagTitle": "Pantalonetas",
+                "text": "Pantalonetas"
+            }
+        }
+    },
+    "menu-item#menu-item-ropa-hombre-7": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelThree__item"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre/ropa/pantalones",
+                "noFollow": false,
+                "tagTitle": "Pantalones",
+                "text": "Pantalones"
+            }
+        }
+    }
+}

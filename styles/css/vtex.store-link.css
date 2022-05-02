@@ -1,0 +1,14 @@
+.buttonLink--viewMoreQuickView {
+    width: 50% !important;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #009ee3;
+}
+
+.buttonLink--viewMoreQuickView:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}

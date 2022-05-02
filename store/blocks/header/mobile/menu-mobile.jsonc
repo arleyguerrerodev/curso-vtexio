@@ -1,0 +1,140 @@
+{
+    "vtex.menu@2.x:menu#mobile-menu": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu"
+        },
+        "children": [
+            "menu-item#department-electrodomesticos-mobile",
+            "menu-item#department-supermercado-mobile",
+            "menu-item#department-moda-mobile",
+            "menu-item#department-viajes-mobile",
+            "menu-item#department-automoviles-mobile",
+            "menu-item#faq-mobile",
+            "menu-item#store-location-mobile",
+            "flex-layout.row#items-mobile"
+        ]
+    },
+    "menu-item#department-electrodomesticos-mobile": {
+        "props": {
+            "id": "menu-item-hombre-products",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Electrodomésticos",
+                "text": "Electrodomésticos"
+            }
+        }
+    },
+    "menu-item#department-supermercado-mobile": {
+        "props": {
+            "id": "menu-item-hombre-products",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado",
+                "noFollow": false,
+                "tagTitle": "Supermercado",
+                "text": "Supermercado"
+            }
+        }
+    },
+    "menu-item#department-moda-mobile": {
+        "props": {
+            "id": "menu-item-hombre-products",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda",
+                "noFollow": false,
+                "tagTitle": "Moda",
+                "text": "Moda"
+            }
+        }
+    },
+    "menu-item#department-viajes-mobile": {
+        "props": {
+            "id": "menu-item-hombre-products",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/viajes",
+                "noFollow": false,
+                "tagTitle": "Viajes",
+                "text": "Viajes"
+            }
+        }
+    },
+    "menu-item#department-automoviles-mobile": {
+        "props": {
+            "id": "menu-item-hombre-products",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/automoviles",
+                "noFollow": false,
+                "tagTitle": "Automoviles",
+                "text": "Automoviles"
+            }
+        }
+    },
+    "menu-item#-mobile": {
+        "props": {
+            "id": "menu-item-home-appliences",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "HomeAppliences",
+                "text": "Electrodomesticos"
+            }
+        }
+    },
+    "menu-item#faq-mobile": {
+        "props": {
+            "id": "menu-item-faq",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/faq",
+                "noFollow": false,
+                "tagTitle": "Faq",
+                "text": "Preguntas Frecuentes"
+            }
+        }
+    },
+    "menu-item#store-location-mobile": {
+        "props": {
+            "id": "menu-item-store-location",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/store-locator",
+                "noFollow": false,
+                "tagTitle": "store-locator",
+                "text": "Localizador de tiendas"
+            }
+        }
+    },
+
+    "flex-layout.row#items-mobile": {
+        "children": [
+            "vtex.menu@2.x:menu#account",
+            "vtex.menu@2.x:menu#wish-list"
+        ],
+        "props": {
+            "blockClass": "items-mobile"
+        }
+    }
+}

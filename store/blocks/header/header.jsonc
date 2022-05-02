@@ -1,0 +1,222 @@
+{
+    "header": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header.full": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#2-desktop",
+            "sticky-layout#4-desktop",
+            "modal-cookies"
+        ]
+    },
+    "flex-layout.row#2-desktop": {
+        "props": {
+            "blockClass": "top-header",
+            "fullWidth": true
+        },
+        "children": ["vtex.menu@2.x:menu#top-header"]
+    },
+    "flex-layout.row#3-desktop": {
+        "props": {
+            "blockClass": "menu-link",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": ["vtex.menu@2.x:menu#desktop-menu"]
+    },
+    "sticky-layout#4-desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": ["flex-layout.row#4-desktop", "flex-layout.row#3-desktop"]
+    },
+    "flex-layout.row#4-desktop": {
+        "props": {
+            "blockClass": "main-header",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "search-bar",
+            "login",
+            "vtex.menu@2.x:menu#wish-list",
+            "minicart.v2"
+        ]
+    },
+    "search-bar": {
+        "blocks": ["vtex.search@2.x:autocomplete-result-list.v2"]
+    },
+    "vtex.search@2.x:autocomplete-result-list.v2": {
+        "props": {
+            "maxSuggestedTerms": 6,
+            "maxSuggestedProducts": 3,
+            "productLayout": "VERTICAL",
+            "hideUnavailableItems": true
+        },
+        "blocks": [
+            "vtex.product-summary@2.x:product-summary.shelf#autocomplete"
+        ]
+    },
+    "vtex.product-summary@2.x:product-summary.shelf#autocomplete": {
+        "props": { "blockClass": "autocomplete-search" },
+        "children": [
+            "product-summary-image#autocomplete",
+            "product-summary-brand#autocomplete",
+            "product-summary-name#autocomplete",
+            "product-selling-price#autocomplete",
+            "product-summary-space#autocomplete",
+            "add-to-cart-button#autocomplete"
+        ]
+    },
+    "product-summary-image#autocomplete": {
+        "props": { "blockClass": "autocomplete-search-image" }
+    },
+    "product-summary-brand#autocomplete": {
+        "props": { "blockClass": "autocomplete-search-brand" }
+    },
+    "product-summary-name#autocomplete": {
+        "props": { "blockClass": "autocomplete-search-name" }
+    },
+    "product-selling-price#autocomplete": {
+        "props": { "blockClass": "autocomplete-search-price" }
+    },
+    "product-summary-space#autocomplete": {
+        "props": { "blockClass": "autocomplete-search-space" }
+    },
+    "add-to-cart-button#autocomplete": {
+        "props": {
+            "text": "Ver Producto",
+            "onClickBehavior": "go-to-product-page",
+            "blockClass": "autocomplete-search-btn"
+        }
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "logo-desktop"
+        },
+        "children": ["logo#desktop"]
+    },
+    "logo#desktop": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/logo-black.png",
+            "width": "117"
+        }
+    },
+    "login": {
+        "props": {
+            "showIconProfile": true,
+            "iconLabel": "Mi Cuenta"
+        }
+    },
+    "header-layout.mobile": {
+        "children": ["sticky-layout#1-mobile"]
+    },
+    "flex-layout.row#2-mobile": {
+        "props": {
+            "blockClass": "top-header",
+            "fullWidth": true
+        },
+        "children": ["vtex.menu@2.x:menu#top-header"]
+    },
+    "sticky-layout#1-mobile": {
+        "children": [
+            "flex-layout.row#2-mobile",
+            "flex-layout.row#1-mobile",
+            "flex-layout.row#search-mobile"
+        ]
+    },
+    "flex-layout.row#1-mobile": {
+        "children": ["drawer", "logo#mobile", "minicart.v2"],
+        "props": {
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#search-mobile": {
+        "children": ["search-bar"],
+        "props": {
+            "blockClass": "search-mobile"
+        }
+    },
+    "drawer": {
+        "children": ["menu#drawer"]
+    },
+    "menu#drawer": {
+        "children": ["vtex.menu@2.x:menu#mobile-menu"],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "logo#mobile": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/logo-black.png",
+            "width": "70"
+        }
+    },
+    "vtex.menu@2.x:menu#wish-list": {
+        "children": ["menu-item#wish-list"],
+        "props": {
+            "blockClass": "wish-list"
+        }
+    },
+    "menu-item#wish-list": {
+        "props": {
+            "id": "menu-item-wish-list",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/wishlist",
+                "noFollow": false,
+                "tagTitle": "WishList",
+                "text": "Mis favoritos"
+            },
+            "iconProps": {
+                "id": "mpa-wishlist",
+                "size": 18,
+                "viewBox": "0 0 16 14"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#account": {
+        "children": ["menu-item#account"],
+        "props": {
+            "blockClass": "account-link"
+        }
+    },
+    "menu-item#account": {
+        "props": {
+            "id": "menu-item-account",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/account",
+                "noFollow": false,
+                "tagTitle": "Mi Cuenta",
+                "text": "Mi Centa"
+            },
+            "iconProps": {
+                "id": "hpa-profile",
+                "size": 20,
+                "viewBox": "0 0 18 16"
+            }
+        }
+    }
+}

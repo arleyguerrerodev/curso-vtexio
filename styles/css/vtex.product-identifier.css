@@ -1,0 +1,11 @@
+.product-identifier--productReference {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .product-identifier--productReference {
+        margin-left: 7px;
+        font-size: 10px;
+        color: #9e9e9e;
+    }
+}

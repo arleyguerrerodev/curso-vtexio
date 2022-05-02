@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#benefits": {
+        "children": ["flex-layout.col#benefits"]
+    },
+    "flex-layout.col#benefits": {
+        "children": ["image#benefits"],
+        "props": {
+            "blockClass": "container-benefits"
+        }
+    },
+    "image#benefits": {
+        "props": {
+            "src": "assets/benefits/benefits.png",
+            "blockClass": "image-benefits"
+        }
+    }
+}

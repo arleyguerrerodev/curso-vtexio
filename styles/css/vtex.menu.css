@@ -1,0 +1,318 @@
+.menuContainerNav--social-media .styledLinkContent {
+    font-weight: 700;
+    color: white !important;
+}
+
+.menuContainerNav--social-media {
+    margin-top: 5%;
+}
+
+.menuContainer--header-top {
+    margin-top: -1%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menuContainerNav--wish-list {
+    margin-top: 3%;
+}
+
+.menuContainer--redes-sociales {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menuItem--payment {
+    margin-top: 5%;
+}
+.submenuWrapper--menu-departamentos-desk {
+    justify-content: start;
+    width: 250px;
+    height: auto;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.submenuWrapper--menu-departamentos-con-categorias-desk {
+    justify-content: start;
+    width: 250px;
+    height: auto;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.submenu--menu-departamentos-desk {
+    margin: 18px 24px 19px 19px;
+}
+.submenu--menu-departamentos-desk :global(.vtex-flex-layout-0-x-flexRow) {
+    width: 100%;
+}
+
+.menuItem--itemMenu-desk {
+    width: 100%;
+    padding: 10px 5%;
+    margin: 0 auto;
+    position: static;
+}
+
+.styledLinkContainer--itemMenu-desk {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.styledLinkContent--itemMenu-desk {
+    font-size: 14px;
+}
+
+.styledLinkContent--itemMenu-desk:hover {
+    color: #009ee3;
+}
+
+.submenuContainer--submenu-principal {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.submenuWrapper--submenu-principal {
+    width: 673px;
+    height: 304px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.submenu--submenu-principal {
+    padding: 43px 16px;
+    justify-content: flex-start;
+}
+
+.styledLinkContainer--submenu-text {
+    margin: 0;
+}
+
+.styledLinkContainer--submenu-text {
+    padding: 8px 0;
+}
+.styledLinkContainer--titulo-submenu {
+    padding-bottom: 12px;
+}
+
+.styledLink--titulo-submenu:hover,
+.styledLink--item-submenu:hover {
+    color: #009ee3;
+}
+
+.styledLinkContainer--menu__department,
+.styledLinkContainer--menu__first {
+    margin: 0;
+    padding: 0;
+}
+
+.menuContainerNav {
+    width: 100%;
+    padding: 0;
+}
+
+.styledLinkContainer--menu__department-btn {
+    padding: 0px;
+    border-bottom: none;
+}
+
+.styledLink--menu__department-direct {
+    display: block;
+}
+
+.styledLinkContent--menu__department-btn,
+.styledLinkContent--menu__department {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.styledLinkIcon--menu__department-btn,
+.styledLinkIcon--menu__department {
+    display: flex;
+    justify-content: center;
+}
+
+.styledLinkContent--menu__first {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    margin-right: 40px;
+    letter-spacing: 0.01em;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.styledLinkContainer--menu__department {
+    margin-left: 98px;
+    margin-right: 78px;
+}
+
+.menuContainer--footer-buttom {
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContainer--menu-title {
+    margin-left: 0;
+}
+
+.styledLinkContent--footer-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.styledLinkContent--follow,
+.styledLinkContent--payment {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.styledLinkContainer--menu-text {
+    padding: 0;
+}
+.menuContainerNav--menu-footer {
+    width: auto !important;
+}
+
+.menuContainerNav--menu-right {
+    margin-right: 4rem;
+}
+.menuContainerNav--menu-right-1 {
+    margin-right: 4rem;
+}
+
+.menuContainer--wish-list :global(.vtex-menu-2-x-styledLinkContainer) {
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.menuContainer--wish-list .styledLinkContent {
+    align-items: center;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .menuContainerNav--account-link .styledLinkContent {
+        color: white;
+        width: 100%;
+        height: 41px;
+        align-items: center;
+    }
+    .menuContainerNav--wish-list .styledLinkContent {
+        width: 100%;
+        color: white;
+    }
+
+    .styledLinkContent--menu__first {
+        justify-content: start;
+        margin-left: 10px;
+    }
+    .menuContainerNav--menu-footer .styledLinkContent {
+        justify-content: center;
+    }
+
+    .styledLinkContent--contactanos {
+        margin-top: 9%;
+    }
+
+    .menuContainerNav--redes-sociales {
+        display: flex;
+        justify-content: center;
+        margin-top: -10%;
+        margin-bottom: 5%;
+    }
+
+    .menuItem--payment {
+        display: none;
+    }
+
+    .menuItem--about-shop {
+        display: none;
+    }
+
+    .menuItem--follow {
+        display: none;
+    }
+
+    .menuContainer--header-top {
+        justify-content: center;
+    }
+
+    .menuContainerNav--redes-sociales {
+        margin-left: 0 !important;
+    }
+}
+
+.styledLink--footer-text {
+    cursor: default;
+}
+
+.styledLinkContent--menu-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.styledLinkContent--menu-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.styledLinkContent--about-shop {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.menuContainer--redes-sociales .styledLinkContainer,
+.styledLinkContainer--about-shop,
+.styledLinkContainer--menu-text,
+.styledLinkContainer--follow,
+.styledLinkContainer--payment {
+    margin: 0;
+}

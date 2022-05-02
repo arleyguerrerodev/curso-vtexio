@@ -1,0 +1,29 @@
+.biggy-autocomplete {
+    width: 855px;
+    height: auto;
+    left: calc(100% - 32.8rem);
+}
+.tileList {
+    max-width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+}
+.tileListSeeMore {
+    width: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+    color: #000000;
+    font-weight: 700;
+}
+.tileListFooter {
+    width: 50%;
+    position: absolute;
+    left: -8%;
+    top: 321px;
+}
+
+.suggestionsListPrefix {
+    padding-left: 8.5rem;
+}

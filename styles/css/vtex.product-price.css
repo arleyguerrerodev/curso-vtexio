@@ -1,0 +1,122 @@
+.listPrice {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #838383;
+}
+
+.sellingPrice {
+    color: #3f3f40;
+    font-size: 1.25rem;
+}
+
+.sellingPrice--price-home {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #009ee3;
+   
+}
+
+.installments {
+    color: #727273;
+    margin-bottom: 1rem;
+}
+
+.savings {
+    font-weight: 500;
+    color: #79b03a;
+}
+.sellingPriceValue--autocomplete-search {
+    font-size: 13px !important;
+}
+.sellingPriceValue--summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.savings--summary {
+    background: #8bc34a;
+    border-radius: 1000px;
+    align-items: center;
+    display: flex;
+
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    vertical-align: baseline;
+    color: #ffffff;
+}
+
+.savings-discount--summary {
+    font-size: 0.875rem;
+    font-weight: 600;
+    vertical-align: baseline;
+    color: #ffffff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.installments--summary {
+    margin-bottom: 2rem;
+    font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+    background: #0f3e99;
+    border-radius: 1000px;
+    align-items: center;
+    display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+    font-size: 0.875rem;
+    font-weight: 600;
+    vertical-align: baseline;
+    color: #ffffff;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+.currencyCode--summary {
+    color: #0086d6;
+}
+.currencyInteger--summary {
+    color: #0086d6;
+}
+
+.currencyDecimal,
+.currencyFraction {
+    font-size: 0;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .sellingPriceValue {
+        font-size: 15px;
+        color: #009ee3;
+    }
+}
+
+.savings--savings-highlight {
+    color: #fff;
+    background-color: #f71963;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

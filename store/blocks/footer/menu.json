@@ -1,0 +1,321 @@
+{
+    "flex-layout.col#logo-footer": {
+        "children": ["logo#footer"],
+        "props": {
+            "blockClass": "logo-footer"
+        }
+    },
+    "logo#footer": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/logo-white.png",
+            "width": "190"
+        }
+    },
+    "vtex.menu@2.x:menu#Products": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["menu-footer", "menu-right"]
+        },
+        "children": [
+            "menu-item#we",
+            "menu-item#about",
+            "menu-item#privade",
+            "menu-item#terms-conditions",
+            "menu-item#change-conditions",
+            "menu-item#warranty-policies",
+            "menu-item#frequent-questions"
+        ]
+    },
+    "menu-item#we": {
+        "props": {
+            "blockClass": "menu-title",
+            "id": "menu-item-we",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "We",
+                "text": "Nosotros"
+            }
+        }
+    },
+    "menu-item#about": {
+        "props": {
+            "id": "menu-item-about",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "/quienes-somos",
+                "noFollow": false,
+                "tagTitle": "About_Us",
+                "text": "Quiénes Somos"
+            }
+        }
+    },
+    "menu-item#privade": {
+        "props": {
+            "id": "menu-item-privade",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Privade",
+                "text": "Aviso de Privacidad"
+            }
+        }
+    },
+    "menu-item#terms-conditions": {
+        "props": {
+            "id": "menu-item-terms-conditions",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Terminos_Condiciones",
+                "text": "Términos y Condiciones"
+            }
+        }
+    },
+    "menu-item#change-conditions": {
+        "props": {
+            "id": "menu-item-change-conditions",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Change_Conditions",
+                "text": "Condiciones de Cambio"
+            }
+        }
+    },
+    "menu-item#warranty-policies": {
+        "props": {
+            "id": "menu-item-warranty-policies",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Warranty_Policies",
+                "text": "Políticas de Garantías"
+            }
+        }
+    },
+    "menu-item#frequent-questions": {
+        "props": {
+            "id": "menu-item-frequent-questions",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Frequent_Questions",
+                "text": "Preguntas Frecuentes"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#Contact-footer": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["menu-footer", "menu-right-1"]
+        },
+        "children": [
+            "menu-item#Contact",
+            "rich-text#contact_footer",
+            "menu-item#store"
+        ]
+    },
+    "menu-item#store": {
+        "props": {
+            "id": "menu-item-store",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "about-shop",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Store",
+                "text": "Nuestras tiendas"
+            }
+        }
+    },
+    "rich-text#contact_footer": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Colombia: (+57) 315 616 4949 | México: (+52) 55 1864 3468\nPerú: (+51) 933 245813 | Chile: (+56) 9 8813 0017 |\nEcuador: (+593) 98 902 0121\nPolítica de tratamiento de datos personales\nDerechos reservados Blacksip® © 2017 BlackSip.",
+            "blockClass": "contact-footer"
+        }
+    },
+    "menu-item#Contact": {
+        "props": {
+            "id": "menu-item-contact",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": ["menu-title"],
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Contact",
+                "text": "Contáctanos"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#social": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "social-media"
+        },
+        "children": [
+            "menu-item#social-media",
+            "vtex.menu@2.x:menu#social-networks",
+            "menu-item#payment",
+            "accepted-payment-methods"
+        ]
+    },
+    "menu-item#social-media": {
+        "props": {
+            "id": "menu-item-follow",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "follow",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Follow",
+                "text": "Síguenos en:"
+            }
+        }
+    },
+    "menu-item#payment": {
+        "children": [],
+        "props": {
+            "id": "menu-item-payment",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "payment",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Payment",
+                "text": "Medios de pago"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#social-networks": {
+        "children": [
+            "menu-item#facebook",
+            "menu-item#instagram",
+            "menu-item#youtube"
+        ],
+        "props": {
+            "blockClass": "redes-sociales"
+        }
+    },
+    "menu-item#facebook": {
+        "props": {
+            "id": "menu-item-facebook",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.facebook.com/BlackSipOnline/",
+                "noFollow": false,
+                "tagTitle": "facebook"
+            },
+            "iconProps": {
+                "id": "mpa-facebook",
+                "size": 25,
+                "viewBox": "0 0 13 28"
+            }
+        }
+    },
+    "menu-item#instagram": {
+        "props": {
+            "id": "menu-item-instagram",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.instagram.com/blacksiponline/",
+                "noFollow": false,
+                "tagTitle": "instagram"
+            },
+            "iconProps": {
+                "id": "mpa-instagram",
+                "size": 25,
+                "viewBox": "0 0 22 25"
+            }
+        }
+    },
+    "menu-item#youtube": {
+        "props": {
+            "id": "menu-item-youtube",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.youtube.com/c/Blacksip",
+                "noFollow": false,
+                "tagTitle": "youtube"
+            },
+            "iconProps": {
+                "id": "mpa-youtube",
+                "size": 25,
+                "viewBox": "0 0 21 18"
+            }
+        }
+    },
+    "accepted-payment-methods": {
+        "props": {
+            "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+        }
+    },
+    "vtex.menu@2.x:menu#top-header": {
+        "children": ["rich-text#home"],
+        "props": {
+            "blockClass": "header-top"
+        }
+    },
+    "rich-text#home": {
+        "props": {
+            "text": "Seleccione el idioma [ES](/?cultureInfo=es-CO) - [EN](/?cultureInfo=en)",
+            "textColor": "c-on-emphasis",
+            "blockClass": "top-header-text"
+        }
+    }
+}

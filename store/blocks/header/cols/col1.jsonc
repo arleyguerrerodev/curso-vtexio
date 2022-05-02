@@ -1,0 +1,178 @@
+{
+    "vtex.menu@2.x:menu#hombre-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-hombre-ropa1",
+            "menu-item#col-item-hombre-ropa-2",
+            "menu-item#col-item-hombre-ropa-3"
+        ]
+    },
+    "menu-item#col-title-hombre-ropa1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/hombre/camisas",
+                "noFollow": true,
+                "tagTitle": "Camisas",
+                "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#col-item-hombre-ropa-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/hombre/jeans",
+                "noFollow": true,
+                "tagTitle": "Jeans",
+                "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#col-item-hombre-ropa-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/hombre/pantalones",
+                "noFollow": true,
+                "tagTitle": "Pantalones",
+                "text": "Pantalones"
+            }
+        }
+    },
+
+    //SUB-COL MUJER
+
+    "vtex.menu@2.x:menu#mujer-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-mujer-ropa1",
+            "menu-item#col-item-mujer-ropa-2",
+            "menu-item#col-item-mujer-ropa-3"
+        ]
+    },
+    "menu-item#col-title-mujer-ropa1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/mujer/camisas",
+                "noFollow": true,
+                "tagTitle": "Camisas",
+                "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#col-item-mujer-ropa-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/mujer/jeans",
+                "noFollow": true,
+                "tagTitle": "Jeans",
+                "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#col-item-mujer-ropa-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/mujer/pantalones",
+                "noFollow": true,
+                "tagTitle": "Pantalones",
+                "text": "Pantalones"
+            }
+        }
+    },
+
+    //SUB-COL NIÑOS
+    "vtex.menu@2.x:menu#niños-col1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#col-title-niños-ropa1",
+            "menu-item#col-item-niños-ropa-2",
+            "menu-item#col-item-niños-ropa-3",
+            "menu-item#col-item-niños-ropa-4"
+        ]
+    },
+    "menu-item#col-title-niños-ropa1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["titulo-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/niños/camisas",
+                "noFollow": true,
+                "tagTitle": "Camisas",
+                "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#col-item-niños-ropa-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/niños/jeans",
+                "noFollow": true,
+                "tagTitle": "Jeans",
+                "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#col-item-niños-ropa-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/niños/pantalones",
+                "noFollow": true,
+                "tagTitle": "Pantalones",
+                "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#col-item-niños-ropa-4": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["item-submenu", "submenu-text"],
+            "itemProps": {
+                "type": "internal",
+                "href": "moda/niños/zapatos",
+                "noFollow": true,
+                "tagTitle": "Zapatos",
+                "text": "Zapatos"
+            }
+        }
+    }
+}

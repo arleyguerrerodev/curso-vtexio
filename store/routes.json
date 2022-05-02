@@ -1,0 +1,17 @@
+{
+    "store.custom#faq": {
+        "path": "/faq"
+    },
+    "store.custom#store-locator": {
+        "path": "/store-locator"
+    },
+    "store.custom#contact": {
+        "path": "/contact"
+    },
+    "store.custom#quienes-somos":{
+        "path": "/quienes-somos"
+    },
+    "store.custom#reto-1":{
+        "path": "/reto-1"
+    }
+}

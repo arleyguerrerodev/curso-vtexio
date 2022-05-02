@@ -1,0 +1,27 @@
+.wishlistIconContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 16px;
+    /* height: 16px; */
+    padding: 0;
+    margin: 0;
+}
+
+.iconSize {
+    width: 15.02px;
+    height: 13.24px;
+    background-repeat: no-repeat;
+}
+
+.outline {
+    background-repeat: no-repeat;
+}
+
+.wishlistIcon--wishlistIconContainer-product-page.iconSize{
+  z-index: 3;
+  position: absolute;
+  color: black;
+  left: 38vw;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,246 @@
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
+.skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+    border-radius: 50%;
+}
+
+.container--autocomplete-search {
+    width: 170px;
+    height: auto;
+    margin-right: 0.25rem;
+    border: 0.5px solid #e7e6ec;
+}
+
+.container--autocomplete-search :global(.vtex-button) {
+    color: black;
+    width: 160px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #009ee3;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container--autocomplete-search :global(.vtex-button):hover {
+    color: white;
+    background-color: black;
+}
+
+.productNameContainer--autocomplete-search-name {
+    width: 90%;
+    margin: auto;
+}
+
+.productBrand--autocomplete-search-name {
+    font-size: 11px !important;
+}
+.container--container-product-summary-new-home {
+    width: 206px;
+}
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+    display: flex !important;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+    opacity: 1;
+}
+
+.nameContainer--summaryListDesktop {
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+    justify-content: start;
+}
+
+.nameContainer--summaryListMobile {
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    justify-content: start;
+}
+
+.brandName--summaryListMobile {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: black;
+}
+
+.container--listLayout {
+    max-width: none !important;
+}
+
+.image--autocomplete-search-image {
+    width: 110px;
+    height: 110px;
+}
+
+.image--summaryListDesktop {
+    width: 180px !important;
+}
+
+.image--summaryListMobile {
+    width: 140px !important;
+    min-width: 140px;
+    height: inherit !important;
+}
+
+@media screen and (max-width: 40em) {
+    .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+        display: none;
+    }
+}
+
+.nameContainer {
+    text-align: center;
+    justify-content: start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nameContainer--name-summary {
+    display: flex;
+    justify-content: center;
+}
+
+.brandName {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.image {
+    border-radius: 0.25rem;
+}
+
+.price_sellingPriceContainer--price-summary {
+    text-align: center;
+}
+
+.productNameContainer--name-summary {
+    text-align: center;
+}
+
+.brandName--name-summary {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.buyButtonText {
+    z-index: 100;
+    position: relative;
+}
+
+.buyButtonText--button-summary {
+    visibility: hidden;
+    align-items: center;
+    width: 100%;
+    top: 10px;
+}
+
+.container--container-product-summary :global(.vtex-button) {
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #009ee3;
+    color: #000;
+    border-radius: 60px;
+    height: 30px;
+    max-width: 30rem;
+}
+
+.container--container-product-summary :global(.vtex-button):hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    max-width: 30rem;
+}
+
+.buyButtonText--button-summary::before {
+    content: "AGREGAR";
+    visibility: visible;
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+    left: -5px;
+    top: 8px;
+}
+
+.buyButton--button-summary :global(.vtex-button) {
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #009ee3;
+    color: #000;
+    border-radius: 60px;
+    height: 30px;
+    max-width: 30rem;
+    width: 9.063rem;
+}
+
+.buyButton--button-summary :global(.vtex-button)::before {
+    content: "\e901";
+    font-family: "icomoon";
+    font-size: 20px;
+    font-weight: normal;
+    right: 15px;
+    position: absolute;
+    top: 9px;
+}
+
+.buyButton--button-summary :global(.vtex-button):hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    max-width: 30rem;
+    width: 9.063rem;
+}
+
+.price_sellingPrice--price-summary {
+    color: #009ee3;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.productBrandName {
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4f4f4f;
+}
+
+.productBrandContainer {
+    margin-top: 1rem;
+}
+
+.element--container-product-summary-new-home .nameContainer {
+    justify-content: center;
+}

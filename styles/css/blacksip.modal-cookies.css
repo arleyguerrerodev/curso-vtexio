@@ -1,0 +1,52 @@
+.modal {
+    left: 0;
+    right: 0;
+    height: 161px;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+    max-width: 100%;
+}
+.container {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 0;
+    position: absolute;
+    top: -3rem;
+}
+.title::before {
+    content: "Acepta las cookies para poder ofrecerte una mejor experiencia";
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 100%;
+    text-align: center;
+}
+.text {
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.button {
+    position: absolute;
+    top: 2rem;
+}
+.button :global(.vtex-button) {
+    background-color: transparent;
+    border-color: white;
+    width: 145px;
+    height: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.button :global(.vtex-button_label) {
+    font-size: 13px;
+}

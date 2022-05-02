@@ -1,0 +1,139 @@
+{
+    "footer": {
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile"
+        ]
+    },
+    "footer-layout.desktop": {
+        "children": [
+           /*  "flex-layout.row#newsletter-form",
+            "flex-layout.row#footer-1-desktop", */
+            "flex-layout.row#footer-3-desktop"
+        ]
+    },
+
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#newsletter-form",
+            "flex-layout.row#footer-1-mobile"
+        ]
+    },
+    "flex-layout.row#footer-1-desktop": {
+        "children": [
+            "flex-layout.col#logo-footer",
+            "vtex.menu@2.x:menu#Products",
+            "vtex.menu@2.x:menu#Contact-footer",
+            "vtex.menu@2.x:menu#social"
+        ],
+        "props": {
+            "blockClass": "menu-row",
+            "fullWidth": true,
+            "paddingTop": 6,
+            "paddingBottom": 3
+        }
+    },
+
+    "flex-layout.row#footer-3-desktop": {
+        "children": [
+            "menu-item#footer-text",
+            "image#icon-blacksip-footer-v2",
+            "image#icon-vtex-footer-v2"
+        ],
+        "props": {
+            "blockClass": "footer-buttom"
+        }
+    },
+
+    "menu-item#footer-text": {
+        "props": {
+            "id": "menu-item-footer-text",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "footer-text",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Footer",
+                "text": "Blacksip 2020 © Todos los derechos reservados  |  Empowered By"
+            }
+        }
+    },
+    "image#icon-blacksip-footer-v2": {
+        "props": {
+            "src": "/arquivos/icon-blacksip-black.svg?v=1",
+            "maxHeight": 11.54,
+            "maxWidth": 43,
+            "blockClass": "container-image-copyright"
+        }
+    },
+
+    "image#icon-vtex-footer-v2": {
+        "props": {
+            "src": "/arquivos/icon-vtex-pink.svg",
+            "maxHeight": 21,
+            "maxWidth": 46,
+            "blockClass": "container-image-copyright"
+        }
+    },
+
+    "flex-layout.row#footer-1-mobile": {
+        "children": [
+            "flex-layout.col#footer-mobile",
+            "flex-layout.row#footer-3-mobile"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "menu-row"
+        }
+    },
+    "flex-layout.col#footer-mobile": {
+        "children": [
+            "flex-layout.col#logo-footer",
+            "vtex.menu@2.x:menu#Products",
+            "vtex.menu@2.x:menu#Contact-footer",
+            "vtex.menu@2.x:menu#social"
+        ]
+    },
+    "flex-layout.row#footer-3-mobile": {
+        "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#footer-mobile": {
+        "children": ["flex-layout.col#copyright-row-mobile"],
+        "props": {
+            "blockClass": "footer-buttom"
+        }
+    },
+
+    "flex-layout.col#copyright-row-mobile": {
+        "children": [
+            "flex-layout.row#copyright-text-mobile",
+            "flex-layout.row#copyright-icons-mobile"
+        ]
+    },
+    "flex-layout.row#copyright-text-mobile": {
+        "children": ["rich-text#footer-text-mobile"]
+    },
+    "rich-text#footer-text-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Blacksip 2020 © Todos los derechos reservados  |  Empowered By",
+            "blockClass": "footer-text-mobile",
+            "font": "t-heading-5"
+        }
+    },
+
+    "flex-layout.row#copyright-icons-mobile": {
+        "props": {
+            "blockClass": "row-icons-mobile"
+        },
+        "children": [
+            "image#icon-blacksip-footer-v2",
+            "image#icon-vtex-footer-v2"
+        ]
+    }
+}

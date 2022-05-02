@@ -1,0 +1,20 @@
+.formSubmitButton {
+    display: flex;
+    justify-content: center;
+}
+.formSubmitButton--button-submit-contact :global(.vtex-button) {
+    border: 1px solid #2d9cdb;
+    box-sizing: border-box;
+    border-radius: 60px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.formSubmitButton--button-submit-contact
+    :global(.vtex-button)
+    :global(.vtex-button__label) {
+    width: 170px;
+}

@@ -1,0 +1,85 @@
+.confirmationIconWrapper {
+    display: none;
+}
+
+.section--notices {
+    display: none;
+}
+
+.confirmationTitle {
+    font-weight: 700;
+    color: #000;
+}
+
+.updateOrderButton {
+    display: none;
+}
+
+.orderPlacedHeader {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.orderSoldBy {
+    display: none;
+}
+
+.myOrdersButton :global(.vtex-button) {
+    border: none;
+    background-color: #f71963;
+    text-transform: uppercase;
+    color: #fff;
+
+    border-radius: 50px;
+    width: 225px;
+    letter-spacing: 0.4em;
+    font-size: 12px;
+}
+
+.cancelOrderButton :global(.vtex-button) {
+    color: #f71963;
+
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+}
+
+.orderPaymentItem {
+    margin-top: 53px;
+}
+
+.pickupFriendlyName,
+.packageReceiver {
+    display: none;
+}
+
+.productListItem {
+    width: 90%;
+}
+
+.productImageWrapper {
+    width: 105px;
+    height: 105px;
+}
+
+.totalListItem--Items {
+    font-size: 14px;
+}
+
+.totalListItem {
+    font-size: 16px;
+}
+
+.customerInfoListoContainer,
+.packageHeaderColumn,
+.packageHeader,
+.packageShippingEstimate,
+.productName {
+}
+
+.orderNumber {
+    font-size: 16px;
+}
+
+.orderDateTime {
+    font-size: 12px;
+}

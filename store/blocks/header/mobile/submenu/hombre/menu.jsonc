@@ -1,0 +1,30 @@
+{
+    "vtex.menu@2.x:submenu.accordion#submenu-hombre-mobile": {
+        "children": ["vtex.menu@2.x:menu#submenu-hombre-mobile"],
+        "props": {
+            "blockClass": "menu__levelTwo"
+        }
+    },
+
+    "vtex.menu@2.x:menu#submenu-hombre-mobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__levelTwo__container"
+        },
+        "children": ["menu-item#menu-item-hombre-1"]
+    },
+    "menu-item#menu-item-hombre-1": {
+        "props": {
+            "type": "custom",
+            "blockClass": ["menu__levelTwo__item", "menu__levelTwo__dpto"],
+            "itemProps": {
+                "type": "internal",
+                // "href": "/hombre/ropa",
+                "noFollow": false,
+                "tagTitle": "Ropa",
+                "text": "Ropa"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#submenu-hombre-ropa-mobile"]
+    }
+}

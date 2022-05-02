@@ -1,0 +1,233 @@
+{
+    "vtex.menu@2.x:menu#desktop-menu": {
+        "children": [
+            "menu-item#home-sesiones"
+            /* "menu-item#supermarket",
+            "menu-item#fashion",
+            "menu-item#trips",
+            "menu-item#autos",
+            "menu-item#faq",
+            "menu-item#store-location" */
+        ]
+    },
+
+    "menu-item#home-sesiones": {
+        "props": {
+            "id": "home-sesiones",
+            "type": "custom",
+            "blockClass": ["menu__department-btn", "menu__first"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "Sesiones",
+                "text": "Sesiones"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamentos"]
+    },
+
+    "vtex.menu@2.x:submenu#departamentos": {
+        "props": {
+            "width": "auto",
+            "blockClass": ["menu-departamentos-con-categorias-desk"]
+        },
+        "children": ["flex-layout.row#submenu-departamentos"]
+    },
+
+    "flex-layout.row#submenu-departamentos": {
+        "children": ["flex-layout.col#submenu-departamentos"],
+        "props": {
+            "fullWidth": false
+        }
+    },
+
+    "flex-layout.col#submenu-departamentos": {
+        "children": ["vtex.menu@2.x:menu#col-departamentos"],
+        "props": {
+            "blockClass": ["menu-escritorio"]
+        }
+    },
+
+    "menu-item#supermarket": {
+        "props": {
+            "id": "menu-item-supermarket",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado",
+                "noFollow": false,
+                "tagTitle": "Supermercado",
+                "text": "Supermercado"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamentos2"]
+    },
+
+    "vtex.menu@2.x:submenu#departamentos2": {
+        "props": {
+            "width": "80%",
+            "blockClass": ["menu-departamentos-desk"]
+        },
+        "children": ["flex-layout.row#submenu-departamentos2"]
+    },
+
+    "flex-layout.row#submenu-departamentos2": {
+        "children": ["flex-layout.col#submenu-departamentos2"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#submenu-departamentos2": {
+        "children": ["vtex.menu@2.x:menu#col-departamentos2"],
+        "props": {
+            "blockClass": ["menu-escritorio"]
+        }
+    },
+
+    "menu-item#fashion": {
+        "props": {
+            "id": "menu-item-fashion",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda",
+                "noFollow": false,
+                "tagTitle": "Moda",
+                "text": "Moda"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamentos3"]
+    },
+
+    "vtex.menu@2.x:submenu#departamentos3": {
+        "props": {
+            "width": "80%",
+            "blockClass": ["menu-departamentos-desk"]
+        },
+        "children": ["flex-layout.row#submenu-departamentos3"]
+    },
+
+    "flex-layout.row#submenu-departamentos3": {
+        "children": ["flex-layout.col#submenu-departamentos3"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#submenu-departamentos3": {
+        "children": ["vtex.menu@2.x:menu#col-departamentos3"],
+        "props": {
+            "blockClass": ["menu-escritorio"]
+        }
+    },
+
+    "menu-item#trips": {
+        "props": {
+            "id": "menu-item-trips",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/viajes",
+                "noFollow": false,
+                "tagTitle": "Viajes",
+                "text": "Viajes"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamentos4"]
+    },
+
+    "vtex.menu@2.x:submenu#departamentos4": {
+        "props": {
+            "width": "80%",
+            "blockClass": ["menu-departamentos-desk"]
+        },
+        "children": ["flex-layout.row#submenu-departamentos4"]
+    },
+
+    "flex-layout.row#submenu-departamentos4": {
+        "children": ["flex-layout.col#submenu-departamentos4"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#submenu-departamentos4": {
+        "children": ["vtex.menu@2.x:menu#col-departamentos4"],
+        "props": {
+            "blockClass": ["menu-escritorio"]
+        }
+    },
+
+    "menu-item#autos": {
+        "props": {
+            "id": "menu-item-autos",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/automoviles",
+                "noFollow": false,
+                "tagTitle": "Automoviles",
+                "text": "Automoviles"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#departamentos5"]
+    },
+
+    "vtex.menu@2.x:submenu#departamentos5": {
+        "props": {
+            "width": "80%",
+            "blockClass": ["menu-departamentos-desk"]
+        },
+        "children": ["flex-layout.row#submenu-departamentos5"]
+    },
+
+    "flex-layout.row#submenu-departamentos5": {
+        "children": ["flex-layout.col#submenu-departamentos5"],
+        "props": {
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#submenu-departamentos5": {
+        "children": ["vtex.menu@2.x:menu#col-departamentos5"],
+        "props": {
+            "blockClass": ["menu-escritorio"]
+        }
+    },
+
+    "menu-item#faq": {
+        "props": {
+            "id": "menu-item-faq",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/faq",
+                "noFollow": false,
+                "tagTitle": "Faq",
+                "text": "Preguntas Frecuentes"
+            }
+        }
+    },
+
+    "menu-item#store-location": {
+        "props": {
+            "id": "menu-item-store-location",
+            "type": "custom",
+            "blockClass": "menu__first",
+            "itemProps": {
+                "type": "internal",
+                "href": "/store-locator",
+                "noFollow": false,
+                "tagTitle": "store-locator",
+                "text": "Localizador de tiendas"
+            }
+        }
+    }
+}

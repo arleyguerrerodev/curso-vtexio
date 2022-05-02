@@ -1,0 +1,10 @@
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .quantitySelectorContainer {
+        margin-left: 7px;
+    }
+
+    .quantitySelectorTitle {
+        color: black;
+        font-size: 12px;
+    }
+}

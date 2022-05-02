@@ -1,0 +1,77 @@
+{
+    "responsive-layout.desktop#categories-desktop": {
+        "children": ["flex-layout.row#categories"]
+    },
+    "flex-layout.row#categories": {
+        "props": {
+            "blockClass": "categories-container",
+            "height": 540
+        },
+        "children": ["flex-layout.col#left", "flex-layout.col#rigth"]
+    },
+    "flex-layout.col#left": {
+        "props": {
+            "blockClass": "center-col-new-home-left"
+        },
+        "children": ["image#categoriesleft"]
+    },
+    "flex-layout.col#rigth": {
+        "props": {
+            "blockClass": "center-col-new-home-right"
+        },
+        "children": ["image#categoriesrigthup", "image#categoriesrigthdown"]
+    },
+    "image#categoriesleft": {
+        "props": {
+            "src": "assets/home/tacticas.jpg",
+            "maxWidth": "100%",
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "image#categoriesrigthup": {
+        "props": {
+            "src": "assets/home/componentes.jpg",
+            "maxWidth": "100%",
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "image#categoriesrigthdown": {
+        "props": {
+            "src": "assets/home/retail.jpg",
+            "maxWidth": "100%",
+            "blockClass": "img-rigth-down",
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "responsive-layout.mobile#mobile-categories": {
+        "children": [
+            "flex-layout.row#blocks",
+            "flex-layout.row#blocks-two",
+            "flex-layout.row#blocks-three"
+        ]
+    },
+    "flex-layout.row#blocks": {
+        "props": {
+            "marginBottom": 4
+        },
+        "children": ["image#categoriesleft"]
+    },
+    "flex-layout.row#blocks-two": {
+        "props": {
+            "marginBottom": 2
+        },
+        "children": ["image#categoriesrigthup"]
+    },
+    "flex-layout.row#blocks-three": {
+        "props": {
+            "marginBottom": 3
+        },
+        "children": ["image#categoriesrigthdown"]
+    }
+}

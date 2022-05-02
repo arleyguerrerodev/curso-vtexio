@@ -1,0 +1,79 @@
+{
+    "flex-layout.row#promises-services": {
+        "props": {
+            "blockClass": "promises-container"
+        },
+        "children": ["flex-layout.col#promises-container"]
+    },
+
+    "flex-layout.col#promises-container": {
+        "children": [
+            "responsive-layout.desktop#promises-container-desktop",
+            "responsive-layout.mobile#promises-container-mobile"
+        ]
+    },
+
+    "responsive-layout.desktop#promises-container-desktop": {
+        "props": {
+            "blockClass": "container-promises-desktop"
+        },
+        "children": ["flex-layout.row#services-desktop"]
+    },
+
+    "flex-layout.row#services-desktop": {
+        "children": [
+            "rich-text#serviceOne",
+            "rich-text#serviceTwo",
+            "rich-text#serviceThree",
+            "rich-text#serviceFour"
+        ]
+    },
+
+    "rich-text#serviceOne": {
+        "props": {
+            "text": "![](/arquivos/promise-blacksip-1.png) Hasta 6 cuotas \n0 interés BBVA + Diners",
+            "textPosition": "CENTER",
+            "blockClass": "promises"
+        }
+    },
+
+    "rich-text#serviceTwo": {
+        "props": {
+            "text": "![](/arquivos/promise-blacksip-2.png) Paga cómodamente \ny sin complicaciones",
+            "textPosition": "CENTER",
+            "blockClass": "promises"
+        }
+    },
+
+    "rich-text#serviceThree": {
+        "props": {
+            "text": "![](/arquivos/promise-blacksip-3.png) Compras fáciles al \nalcance de tu mano",
+            "textPosition": "CENTER",
+            "blockClass": "promises"
+        }
+    },
+
+    "rich-text#serviceFour": {
+        "props": {
+            "text": "![](/arquivos/promise-blacksip-4.png) Envíos seguros \nsin salir de casa",
+            "textPosition": "CENTER",
+            "blockClass": "promises"
+        }
+    },
+
+    "responsive-layout.mobile#promises-container-mobile": {
+        "children": ["flex-layout.col#serviceOne-mobile"]
+    },
+
+    "flex-layout.col#serviceOne-mobile": {
+        "children": ["rich-text#service-one-mobile"]
+    },
+
+    "rich-text#service-one-mobile": {
+        "props": {
+            "text": "Creamos contenido de relevancia para el **entorno digital.** ",
+            "textPosition": "CENTER",
+            "blockClass": "promises-mobile"
+        }
+    }
+}

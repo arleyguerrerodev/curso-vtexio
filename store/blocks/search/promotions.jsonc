@@ -1,0 +1,141 @@
+{
+    "flex-layout.row#promotions-search": {
+        "children": ["flex-layout.col#promotions-search"],
+        "props": {
+            "blockClass": "container-promotion"
+        }
+    },
+    "flex-layout.col#promotions-search": {
+        "children": [
+            "responsive-layout.desktop#desktop-search-promotions",
+            "responsive-layout.mobile#mobile-search-promotions"
+        ]
+    },
+    "responsive-layout.desktop#desktop-search-promotions": {
+        "children": ["flex-layout.row#promotions-img"]
+    },
+    "flex-layout.row#promotions-img": {
+        "children": [
+            "flex-layout.col#promotion-one",
+            "flex-layout.col#promotion-two",
+            "flex-layout.col#promotion-three",
+            "flex-layout.col#promotion-four"
+        ]
+    },
+    "responsive-layout.mobile#mobile-search-promotions": {
+        "children": [
+            "flex-layout.row#promotion-one-mobile",
+            "flex-layout.row#promotion-two-mobile",
+            "flex-layout.row#promotion-three-mobile",
+            "flex-layout.row#promotion-four-mobile"
+        ]
+    },
+    "flex-layout.col#promotion-one": {
+        "children": ["image#promotion-one"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "flex-layout.col#promotion-two": {
+        "children": ["image#promotion-two"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "flex-layout.col#promotion-three": {
+        "children": ["image#promotion-three"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "flex-layout.col#promotion-four": {
+        "children": ["image#promotion-four"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "image#promotion-one": {
+        "props": {
+            "src": "assets/promotions/promotion-one.png"
+        }
+    },
+    "image#promotion-two": {
+        "props": {
+            "src": "assets/promotions/promotion-two.png"
+        }
+    },
+    "image#promotion-three": {
+        "props": {
+            "src": "assets/promotions/promotion-three.png"
+        }
+    },
+    "image#promotion-four": {
+        "props": {
+            "src": "assets/promotions/promotion-four.png"
+        }
+    },
+    "flex-layout.row#promotion-one-mobile": {
+        "children": ["image#promotion-one-mobile"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "flex-layout.row#promotion-two-mobile": {
+        "children": ["image#promotion-two-mobile"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "flex-layout.row#promotion-three-mobile": {
+        "children": ["image#promotion-three-mobile"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "flex-layout.row#promotion-four-mobile": {
+        "children": ["image#promotion-four-mobile"],
+        "props": {
+            "link": {
+                "url": "/wishlist"
+            }
+        }
+    },
+    "image#promotion-one-mobile": {
+        "props": {
+            "src": "assets/promotions/promotion-one-mobile.png",
+            "blockClass": "img-promotion-mobile"
+        }
+    },
+    "image#promotion-two-mobile": {
+        "props": {
+            "src": "assets/promotions/promotion-two-mobile.png",
+            "blockClass": "img-promotion-mobile"
+        }
+    },
+    "image#promotion-three-mobile": {
+        "props": {
+            "src": "assets/promotions/promotion-three-mobile.png",
+            "blockClass": "img-promotion-mobile"
+        }
+    },
+    "image#promotion-four-mobile": {
+        "props": {
+            "src": "assets/promotions/promotion-four-mobile.png",
+            "blockClass": "img-promotion-mobile"
+        }
+    }
+}

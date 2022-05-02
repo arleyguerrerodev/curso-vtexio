@@ -1,0 +1,30 @@
+{
+    "store.custom#reto-1":{
+        "blocks":[
+            "flex-layout.row#sesion-reto-1"
+        ]
+    },
+    "flex-layout.row#sesion-reto-1":{
+        "children":[
+            "rich-text#nuestros-valores",
+            "rich-text#lista-nuestros-valores"
+        ],
+        "props":{
+            "marginTop": 5,
+            "marginBottom":5
+        }
+    },
+    "rich-text#nuestros-valores":{
+        "props":{
+            "text":"# Nuestros Valores",
+            "textAlignment":"CENTER",
+            "textPosition":"RIGHT"
+        }
+    },
+    "rich-text#lista-nuestros-valores":{
+        "props":{
+            "text":"* Perseguimos el WOW de nuestros clientes\n* Perseguimos el aprendizaje y el crecimiento\n* Somos apasionados y disciplinados\n* Somos un equipo\n* Somos orientas a resultados",
+            "textPosition":"LEFT"
+        }
+    }
+}

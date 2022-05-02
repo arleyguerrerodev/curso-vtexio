@@ -1,0 +1,27 @@
+{
+    "list-context.image-list#search": {
+        "children": ["slider-layout#slider-search"],
+        "props": {
+            "height": 140,
+            "blockClass": "img-banner-search",
+            "images": [
+                {
+                    "image": "assets/search/happy-young.png",
+                    "mobileImage": "assets/search/img-search-mobile.png"
+                }
+            ]
+        }
+    },
+
+    "flex-layout.row#banner-one": {
+        "children": ["search-banner#one"]
+    },
+
+    "search-banner#one": {
+        "props": {
+            "area": "one",
+            "blockClass": "myBanner",
+            "horizontalAlignment": "center"
+        }
+    }
+}

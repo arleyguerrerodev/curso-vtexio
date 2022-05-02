@@ -1,0 +1,60 @@
+{
+  "store.custom#quienes-somos":{
+    "children":[
+      "flex-layout.row#quienes-somos-container"
+    ]
+  },
+
+  "flex-layout.row#quienes-somos-container":{
+    "children":[
+      "flex-layout.col#quienes-somos-text",
+      "flex-layout.col#quienes-somos-image"
+    ],
+    "props":{
+      "blockClass": "main-container"
+    }
+  },
+
+  "flex-layout.col#quienes-somos-text":{
+    "children":[
+      "rich-text#quienes-somos-text",
+      "rich-text#valores-text"
+
+    ],
+    "props":{
+      "blockClass": "quienes-somos-text-container"
+    }
+  },
+
+  "rich-text#quienes-somos-text":{
+    "props":{
+      "text": "## Quiénes Somos \rSomos BlackSip, una empresa digital y de e-commerce para un mundo cambiante.\n  - Fundada por Ex-Googlers.\n  - Enfocados en resultados.\n  - Basados en datos.\n  - Creativos para resolver problemas.",
+      "blockClass": "quienes-somos-text"
+    }
+  },
+
+  "rich-text#valores-text":{
+    "props":{
+      "blockClass": "valores-text",
+      "text": "## 5 Valores Blacksip \n - Somos un equipo\n - Somos Apasionados\n - Entregamos Alto Valor a nuestros Clientes\n - Somos Orientados a Resultados\n - Perseguimos el Aprendizaje y el Crecimiento"
+    }
+  },
+
+
+  "flex-layout.col#quienes-somos-image":{
+    "children":[
+      "image#quienes-somos-image"
+    ]
+
+  },
+  "image#quienes-somos-image":{
+    "props":{
+      "src": "/arquivos/Quienes-somos-Blacksip.jpg",
+      "maxWidth": "98%",
+      "maxHeight": "97%",
+      "title": "Quienes somos Blacksip Store",
+      "blockClass": "we-image-bs-store"
+    }
+  }
+
+}

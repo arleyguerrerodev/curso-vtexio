@@ -1,0 +1,79 @@
+{
+    "store.orderplaced": {
+        "blocks": ["order-placed"]
+    },
+
+    "store.account": {
+        "blocks": [
+            "responsive-layout.desktop#profile",
+            "responsive-layout.phone#profile"
+        ]
+    },
+    "responsive-layout.desktop#profile": {
+        "children": ["my-account"],
+        "parent": {
+            "challenge": "challenge.profile"
+        }
+    },
+    "responsive-layout.phone#profile": {
+        "children": ["my-account"],
+        "parent": {
+            "challenge": "challenge.profile"
+        }
+    },
+    "store.login": {
+        "blocks": [
+            "responsive-layout.desktop#login",
+            "responsive-layout.phone#login"
+        ]
+    },
+    "responsive-layout.desktop#login": {
+        "children": ["login-content#default"]
+    },
+    "responsive-layout.phone#login": {
+        "children": ["login-content#default"]
+    },
+    "login-content#default": {
+        "props": {
+            "isInitialScreenOptionOnly": false,
+            "defaultOption": 1,
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+
+    "store.product-review-form": {
+        "blocks": ["product-review-form"]
+    },
+
+    "store.not-found#product": {
+        "blocks": ["rich-text#not-found"]
+    },
+
+    "store.not-found#search": {
+        "blocks": ["rich-text#not-found"]
+    },
+
+    "rich-text#not-found": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**PAGE NOT FOUND**",
+            "font": "t-heading-1"
+        }
+    },
+
+    "add-to-cart-button": {
+        "props": {
+            "addToCartFeedback": "customEvent",
+            "customPixelEventId": "add-to-cart-button"
+        }
+    },
+
+    "back-to-top-button#blacksip-store":{
+      "props":{
+        "display": "caret-icon",
+        "displayThreshold": 500
+      }
+    }
+
+}

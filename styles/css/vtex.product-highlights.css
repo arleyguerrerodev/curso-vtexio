@@ -1,0 +1,31 @@
+.productHighlightWrapper--collection {
+    position: absolute;
+    top: 10px;
+    left: calc(100% + 8rem);
+    width: 70px;
+    height: 20px;
+}
+
+.productHighlightText {
+    background: #f71963;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex !important;
+    color: white;
+    text-transform: capitalize;
+    justify-content: center;
+}
+
+.productHighlightWrapper--promotion {
+    position: absolute;
+    top: 10px;
+    left: 165px;
+    width: 70px;
+    height: 20px;
+}
+
+@media screen and (max-width: 80rem) {
+    .productHighlightWrapper--collection {
+        left: calc(100% + 11rem);
+    }
+}

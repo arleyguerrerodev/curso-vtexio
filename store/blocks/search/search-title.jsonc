@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#searchtitle-totalproducts": {
+        "children": ["search-title.v2", "total-products.v2"],
+        "props": {
+            "blockClass": "search-title"
+        }
+    }
+}

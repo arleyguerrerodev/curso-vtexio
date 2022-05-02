@@ -1,0 +1,226 @@
+{
+    "vtex.menu@2.x:menu#col-departamentos": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#reto-1"
+        ]
+    },
+    "menu-item#reto-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/reto-1",
+                "noFollow": true,
+                "tagTitle": "Reto 1",
+                "text": "Reto 1"
+            }
+        },
+        "blocks": []
+    },
+
+    //COMIENZO DEPARTAMENTOS SUPERMERCADO
+
+    "vtex.menu@2.x:menu#col-departamentos2": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#drinks",
+            "menu-item#frozen",
+            "menu-item#meat",
+            "menu-item#breakfast",
+            "menu-item#fruits",
+            "menu-item#alcohol"
+        ]
+    },
+    "menu-item#drinks": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado/bebidas",
+                "noFollow": true,
+                "tagTitle": "Bebidas",
+                "text": "Bebidas"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#frozen": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado/congelados",
+                "noFollow": true,
+                "tagTitle": "Congelados",
+                "text": "Congelados"
+            }
+        }
+    },
+    "menu-item#meat": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado/carnes-aves-y-pescados",
+                "noFollow": true,
+                "tagTitle": "Carnes, Aves y Pescados",
+                "text": "Carnes, Aves y Pescados"
+            }
+        }
+    },
+    "menu-item#breakfast": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado/desayuno",
+                "noFollow": true,
+                "tagTitle": "Desayuno",
+                "text": "Desayuno"
+            }
+        }
+    },
+    "menu-item#fruits": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/supermercado/frutas-y-verduras",
+                "noFollow": true,
+                "tagTitle": "Frutas y Verduras",
+                "text": "Frutas y Verduras"
+            }
+        }
+    },
+    "menu-item#alcohol": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "supermercado/licores",
+                "noFollow": true,
+                "tagTitle": "Licores",
+                "text": "Licores"
+            }
+        }
+    },
+
+    //COMIENZO DEPARTAMENTO MODA
+    "vtex.menu@2.x:menu#col-departamentos3": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": ["menu-item#men", "menu-item#women", "menu-item#childrens"]
+    },
+    "menu-item#men": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda/hombre",
+                "noFollow": true,
+                "tagTitle": "Hombre",
+                "text": "Hombre"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#hombre"]
+    },
+    "menu-item#women": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda/mujer",
+                "noFollow": true,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#mujer"]
+    },
+    "menu-item#childrens": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/moda/niños",
+                "noFollow": true,
+                "tagTitle": "Niño",
+                "text": "Niño"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#niños"]
+    },
+
+    //MENU VIAJES
+
+    "vtex.menu@2.x:menu#col-departamentos4": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": ["menu-item#packages"]
+    },
+    "menu-item#packages": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/viajes/paquetes",
+                "noFollow": true,
+                "tagTitle": "Paquetes",
+                "text": "Paquetes"
+            }
+        },
+        "blocks": []
+    },
+
+    //MENU AUTOMOVILES
+    "vtex.menu@2.x:menu#col-departamentos5": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": ["menu-item#brake"]
+    },
+    "menu-item#brake": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/automoviles/sistema-freno-disco",
+                "noFollow": true,
+                "tagTitle": "Sistema Freno Disco",
+                "text": "Sistema Freno Disco"
+            }
+        },
+        "blocks": []
+    }
+}

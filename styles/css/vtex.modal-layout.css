@@ -1,0 +1,64 @@
+.paper--quickview {
+    max-width: 680px;
+    min-width: 600px;
+    max-height: 90vh !important;
+}
+
+.headerContainer--quickview {
+    border: none;
+    position: absolute;
+    right: 0;
+}
+
+.actionsContainer--quickview {
+    height: 100%;
+    width: 100%;
+    transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: transparent;
+    box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #aaa;
+    padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.triggerContainer--quickview {
+    padding: 0.75rem;
+    width: 250px;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.triggerContainer {
+    outline: none;
+    align-items: center;
+    width: 100%;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+    border-top-color: rgb(238, 238, 238);
+    box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview)
+    .actionsContentWrapper {
+    border-top-color: transparent;
+}
+
+.closeButton {
+    padding-right: 1rem;
+}
+
+.paper--product-gifts {
+    padding: 1.5rem;
+}

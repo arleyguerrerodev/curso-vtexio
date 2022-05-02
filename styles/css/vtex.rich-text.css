@@ -1,0 +1,275 @@
+.container--deals {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.container--shelfTitle {
+    color: #727273;
+    justify-content: center;
+    text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+    font-weight: 200;
+}
+
+.container--deals .paragraph {
+    margin: 0;
+}
+
+.container--link {
+    justify-content: center;
+}
+
+.container--question {
+    justify-content: center;
+}
+
+.container--question .paragraph {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 16px;
+    padding-top: 120px;
+    color: #03034e;
+}
+
+.container--question .strong {
+    font-size: 32px;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.container--link .paragraph {
+    text-align: center;
+    max-width: 540px;
+    padding-top: 36px;
+    padding-bottom: 84px;
+    color: #03034e;
+}
+
+.container--link .strong {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container--link .link {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 300;
+    color: #03034e;
+}
+.container--long-text {
+    text-align: center;
+}
+.container--title {
+    color: #03034e;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container--layout-option {
+    margin-left: 0.3em;
+}
+
+.paragraph--layout-option {
+    margin: 0;
+}
+
+.paragraph--summarySpecificationBullet {
+    margin: 0;
+    line-height: initial;
+    font-size: 1.25rem;
+    line-height: 1.15rem;
+}
+
+.container--credits {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.paragraph--contact-footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 0;
+}
+.paragraph--top-header-text {
+    font-weight: 400;
+}
+
+.link--top-header-text {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+}
+.wrapper--promises {
+    margin: 0.5rem;
+}
+
+.paragraph--promises {
+    display: flex;
+    padding: 0 2px 0 2px;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.image--promises {
+    margin-right: 15px;
+}
+.paragraph--promises-mobile {
+    color: #000;
+    border-top: 2px solid #bd0071;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+.container--contact-us {
+    font-size: 20px;
+    font-weight: 600;
+}
+.paragraph--long-text {
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.paragraph--long-text {
+    letter-spacing: 5px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+.paragraph--long-text :global(.vtex-rich-text-0-x-link) {
+    color: #000;
+    text-decoration: none;
+}
+.paragraph--answer {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    color: #000;
+
+    text-transform: uppercase;
+}
+.container--title-featured-desktop {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.container--title-featured-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link--wish-list {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+}
+
+.container--titulo-departamento {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container--titulo-departamento::after {
+    content: "";
+    height: 2px;
+    background-color: #111c4e;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.wrapper--titulo-departamento {
+    z-index: 2;
+}
+
+.paragraph--titulo-departamento {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.link--titulo-departamento {
+    background-color: #bd0071;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 4px 14px;
+
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.strong--answer {
+    color: #0086d6;
+}
+.headingLevel2--title-featured-desktop {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+}
+.headingLevel2--title-featured-mobile {
+    font-size: 16px;
+    font-family: Poppins;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 0.04rem;
+}
+.paragraph--faq-question {
+    font-weight: 500;
+    font-size: 15px;
+}
+.paragraph--faq-question {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    .paragraph--top-header-text {
+        margin-top: 5px;
+    }
+
+    .paragraph--contact-footer {
+        text-align: center;
+        margin-right: 6%;
+    }
+}
+.headingLevel1--text-title-contact {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+.paragraph--text-subTitle-contact {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.paragraph--footer-text-mobile {
+    color: white;
+}

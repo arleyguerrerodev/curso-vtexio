@@ -1,0 +1,499 @@
+:global(.vtex-my-orders-app-3-x-orderProductName) {
+    font-size: 14px;
+    color: #000000;
+}
+:global(.vtex-my-orders-app-3-x-reorderBtn.myo-reorder-btn) {
+    fill: #000000;
+}
+:global(.vtex-pageHeader-link__container) {
+    display: none;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductName.c-link.hover-c-link.c-link--visited.fw4.f6.f5-l.link) {
+    color: black;
+    font-size: 14px !important;
+}
+
+:global(.vtex-pageHeader__title) {
+    display: none;
+}
+
+:global(.vtex-pageHeader__container) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+:global(.vtex-pageHeader__container .vtex-button) {
+    background-color: #009ee3;
+    border: none;
+    border-radius: 50px;
+}
+
+:global(.address-summary span:nth-child(7)) {
+    padding: 4px;
+    border: 1px solid #009ee3;
+    color: black;
+    border-radius: 50px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderCard) {
+    border-radius: 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn) {
+    width: 100%;
+    text-transform: uppercase;
+
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    height: 35px;
+    padding: 4%;
+}
+
+:global(.vtex-my-orders-app-3-x-font) {
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn):hover {
+    color: black;
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn) {
+    text-transform: uppercase;
+
+    border: none;
+    background-color: #009ee3;
+    color: white;
+    height: 35px;
+    border-radius: 50px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductName) {
+    color: black;
+}
+
+:global(.vtex-my-orders-app-3-x-productName) {
+    color: black;
+    text-decoration: none;
+}
+
+:global(.vtex-my-orders-app7-x-productName) {
+    color: black;
+    text-decoration: none;
+}
+
+:global(.vtex-my-orders-app-3-x-productRow) {
+    color: black;
+}
+
+:global(.myo-progress-bar__circle) {
+    background-color: #009ee3;
+}
+
+:global(.myo-progress-bar__line) {
+    border-color: #009ee3;
+}
+
+:global(.myo-progress-bar__ma-inner-circle) {
+    background-color: #009ee3;
+    color: #009ee3;
+}
+
+:global(.vtex-account__order-details) {
+}
+
+:global(.vtex-account__order-details time div) {
+    background-color: #009ee3;
+}
+
+:global(.vtex-account__order-details ul li:nth-child(1)) {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 50px;
+}
+
+:global(.vtex-account__order-details ul li:nth-child(1) span) {
+    color: black;
+}
+
+:global(.vtex-account__order-details ul li:nth-child(2)) {
+    background-color: #eb5757;
+    border-radius: 50px;
+}
+
+:global(.vtex-account__order-details ul li:nth-child(2) span) {
+    color: white;
+    padding: 5px;
+}
+
+:global(.vtex-account_menu-link.b--action-primary) {
+    border-color: #009ee3;
+}
+
+:global(.vtex-numeric-stepper-container .vtex-numeric-stepper__input) {
+    border-right: none;
+    border-left: none;
+    border-top-color: #8e8e8e;
+    border-bottom-color: #8e8e8e;
+    width: 150px;
+}
+
+:global(.vtex-numeric-stepper-container .vtex-numeric-stepper__plus-button) {
+    border: 1px solid #8e8e8e;
+    border-radius: 50px;
+    margin-left: -17px;
+    background-color: #8e8e8e;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+:global(.vtex-numeric-stepper-container .vtex-numeric-stepper__minus-button) {
+    border: 1px solid #8e8e8e;
+    border-radius: 50px;
+    margin-right: -17px;
+    background-color: #8e8e8e;
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+
+:global(.vtex-numeric-stepper-container
+        .vtex-numeric-stepper__plus-button__text) {
+    color: white;
+    font-size: 20px;
+}
+
+:global(.vtex-numeric-stepper-container
+        .vtex-numeric-stepper__minus-button__text) {
+    color: white;
+    font-size: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild:nth-child(12) .vtex-button) {
+    width: 51%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border-color: #009ee3;
+
+    font-weight: 800;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild:nth-child(12)
+        .vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--btn-menu-tab
+        .vtex-tab-layout-0-x-listItem
+        .vtex-button) {
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+    border-bottom: 1px solid;
+}
+
+:global(.vtex-tab-layout-0-x-contentContainer) {
+    padding: 4%;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer .vtex-button) {
+    background-color: transparent;
+    border: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--addToCartQuickView .vtex-button) {
+    width: 50%;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #009ee3;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--addToCartRow) {
+    justify-content: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--addToCartQuickView
+        .vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start;
+}
+
+:global(.vtex-slider__base-internal) {
+    background-color: #009ee3;
+}
+
+:global(.vtex-slider__selector) {
+    background-color: #009ee3;
+}
+
+:global(.vtex-search-result-3-x-galleryTitle--layout) {
+    text-transform: capitalize;
+}
+
+:global(.vtex-breadcrumb-1-x-link) {
+    text-transform: capitalize;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--checkbox-contact
+        .vtex-checkbox__line-container
+        .vtex-checkbox__container
+        .vtex-checkbox__inner-container.bg-action-primary) {
+    background-color: #2d9cdb !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq
+        .vtex-flex-layout-0-x-flexColChild:nth-child(1)
+        .vtex-rich-text-0-x-container) {
+    justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq
+        .vtex-flex-layout-0-x-flexColChild:nth-child(2)) {
+    border-bottom: 1px solid #8e8e8e;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq
+        .vtex-disclosure-layout-1-x-trigger--question) {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #d3d0d0;
+    padding: 1%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq
+        .vtex-disclosure-layout-1-x-content--answer) {
+    padding: 1%;
+    border-bottom: 1px solid #d3d0d0;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--question:focus) {
+    color: rgb(0, 0, 0);
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--question:focus
+        .vtex-rich-text-0-x-paragraph) {
+    color: rgb(0, 0, 0);
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--question
+        .vtex-rich-text-0-x-paragraph) {
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightText) {
+    display: none;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-formSection .vtex-button) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+}
+
+:global(.blacksip-store-locator-0-x-containerLevel1
+        .vtex-dropdown
+        .vtex-dropdown__label) {
+    color: #009ee3;
+}
+
+:global(.blacksip-store-locator-0-x-containerLevel2
+        .vtex-dropdown
+        .vtex-dropdown__label) {
+    color: #009ee3;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexRow--button-cart
+        .vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexRow--button-cart
+        .vtex-button) {
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #009ee3;
+    color: #000;
+    border-radius: 60px;
+    height: 30px;
+    max-width: 30rem;
+    width: 9.063rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexRow--button-cart
+        .vtex-button):hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    max-width: 30rem;
+    width: 9.063rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexRow--button-cart
+        .vtex-button__label) {
+    visibility: visible;
+    justify-content: flex-start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexRow--button-cart
+        .vtex-button__label)::after {
+    content: "\e901";
+    font-family: "icomoon";
+    font-size: 20px;
+    font-weight: normal;
+    right: 15px;
+    position: absolute;
+    top: 9px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexRow--button-cart
+        .vtex-button__label)::before {
+    content: "AGREGAR";
+    visibility: visible;
+    text-align: left;
+    position: absolute;
+    font-size: 13px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bradcrumb-product-details) {
+    margin-left: 103px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-details
+        .vtex-flex-layout-0-x-flexColChild:nth-child(5)
+        .vtex-flex-layout-0-x-flexRowContent) {
+    justify-content: flex-start;
+}
+
+:global(.vtex-toast) {
+    background-color: black;
+    border-radius: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--button-cart
+        .vtex-add-to-cart-button-0-x-buttonDataContainer) {
+    display: none;
+}
+
+:global(.vtex-order-placed-2-x-orderWrapper
+        .vtex-flex-layout-0-x-flexRowContent) {
+    justify-content: space-between;
+}
+
+
+:global(.vtex-my-account-1-x-menuLinks .flex-grow-1 div):nth-child(4){
+  display: none;
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+    :global(.vtex-flex-layout-0-x-flexRow--search-mobile) {
+        background-color: #ffffff;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--search-mobile
+            .vtex-store-components-3-x-searchBarInnerContainer) {
+        border-radius: 50px;
+        width: 292px;
+        margin-left: 46px;
+        margin-top: -12px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--search-mobile
+            .vtex-store-components-3-x-searchBarInnerContainer
+            .vtex-input-prefix__group) {
+        border-radius: 50px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--items-mobile) {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: black;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        height: 41px;
+        bottom: 0;
+        width: 100%;
+        height: 41px;
+        border-radius: 50px;
+        align-items: center;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--bradcrumb-product-details) {
+        margin-left: 7px;
+        margin-bottom: 5px;
+    }
+
+    :global(.vtex-numeric-stepper-container .vtex-numeric-stepper__input) {
+        border-top-color: #000000;
+        border-bottom-color: #000000;
+    }
+
+    :global(.vtex-numeric-stepper-container
+            .vtex-numeric-stepper__plus-button) {
+        border: 1px solid #000000;
+        background-color: #000000;
+    }
+
+    :global(.vtex-numeric-stepper-container
+            .vtex-numeric-stepper__minus-button) {
+        border: 1px solid #000000;
+        background-color: #000000;
+    }
+
+    :global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+        display: none;
+    }
+
+    :global(.vtex-my-account-1-x-profile > main) {
+        display: -ms-grid;
+        display: grid;
+    }
+
+    :global(.vtex-pageHeader__container) {
+        justify-content: flex-start;
+    }
+
+    :global(.vtex-pageHeader-link__container) {
+        display: contents;
+    }
+
+    :global(.vtex-pageHeader__container .vtex-button) {
+        background-color: transparent;
+        color: #000;
+    }
+
+    :global(.vtex-pageHeader__container) {
+        display: -ms-grid;
+        display: grid;
+    }
+
+    :global(.vtex-pageHeader__title) {
+        display: contents;
+    }
+
+    :global(.vtex-pageHeader-link__container div) {
+        justify-content: flex-start;
+    }
+
+    :global(.vtex-pageHeader-link__container .vtex-button) {
+        line-height: 3;
+    }
+
+    :global(.vtex-pageHeader__children .vtex-button) {
+        margin-top: 9px;
+        margin-left: 21px;
+        width: 89%;
+        background-color: #009ee3;
+        color: #fff;
+    }
+}

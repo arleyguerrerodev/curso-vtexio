@@ -1,0 +1,58 @@
+{
+    "list-context.image-list#new-home": {
+        "children": ["slider-layout#new-home-slider"],
+        "props": {
+            "height": "100%",
+            "images": [
+                {
+                    "image": "assets/home/slider-1.jpg",
+                    "mobileImage": "assets/home/home-slider-mobile.png"
+                },
+                {
+                    "image": "assets/home/slider-1.jpg",
+                    "mobileImage": "assets/home/home-slider-mobile.png"
+                },
+                {
+                    "image": "assets/home/slider-1.jpg",
+                    "mobileImage": "assets/home/home-slider-mobile.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#new-home-slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "container-slider-new-home"
+        }
+    },
+    "slider-layout#slider-search": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "container-slider-search"
+        }
+    },
+    "slider-layout#slider-faq": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "container-slider-faq"
+        }
+    }
+}
