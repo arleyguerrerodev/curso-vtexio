@@ -1,0 +1,89 @@
+{
+    "store.custom#reto-2":{
+        "blocks":[
+            "flex-layout.row#container-receta"
+        ]
+    },
+    "flex-layout.row#container-receta":{
+        "children":[
+            "responsive-layout.desktop#recetas"
+            /* "responsive-layout.mobile#recetas" */
+        ]
+    },
+    "responsive-layout.desktop#recetas":{
+        "children":[
+            "flex-layout.col#imagen-receta",
+            "flex-layout.col#informacion-receta"
+        ]
+    },
+    "flex-layout.col#imagen-receta":{
+        "children":[
+            "image#column-receta"
+        ]
+    },
+    "image#column-receta":{
+        "props":{
+            "src":"https://i.imgur.com/ipQipBB.jpg"
+        }
+    },
+    "flex-layout.col#informacion-receta":{
+        "children":[
+            "rich-text#titulo-receta",
+            "rich-text#descripcion-receta",
+            "flex-layout.row#preparacion-top"
+            /* "flex-layout.row#preparacion-bottom" */
+        ]
+    },
+    "rich-text#titulo-receta":{
+        "props":{
+            "text":"### Pavo dorado relleno al horno"
+        }
+    },
+    "rich-text#descripcion-receta":{
+        "props":{
+            "text":"Delicioso y sencillo de preparar, pavo al horno relleno de verduras con jamón serrano para celebrar la navidad con toda la familia."
+        }
+    },
+    "flex-layout.row#preparacion-top":{
+        "children":[
+            "image#logo-paso-1",
+            "rich-text#descripcion-paso-1",
+            "image#logo-paso-2",
+            "rich-text#descripcion-paso-2",
+            "image#logo-paso-3",
+            "rich-text#descripcion-paso-3"
+        ]
+    },
+    "image#logo-paso-1":{
+        "props":{
+            "src":"https://i.imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#descripcion-paso-1":{
+        "props":{
+            "text":"60 minutos"
+        }
+    },
+    "image#logo-paso-2":{
+        "props":{
+            "src":"https://i.imgur.com/YU224Ni.png",
+            "maxWidth": 20,
+            "maxHeight": 20
+        }
+    },
+    "rich-text#descripcion-paso-2":{
+        "props":{
+            "text":"8 ingredientes"
+        }
+    },
+    "image#logo-paso-3":{
+        "props":{
+            "src":"https://i.imgur.com/EvjGjXS.png"
+        }
+    },
+    "rich-text#descripcion-paso-3":{
+        "props":{
+            "text":"Nivel: Principiante"
+        }
+    }
+}

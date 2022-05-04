@@ -18,7 +18,7 @@
             "blockClass": ["menu__department-btn", "menu__first"],
             "itemProps": {
                 "type": "internal",
-                "href": "/electrodomesticos",
+                "href": "#",
                 "noFollow": false,
                 "tagTitle": "Sesiones",
                 "text": "Sesiones"

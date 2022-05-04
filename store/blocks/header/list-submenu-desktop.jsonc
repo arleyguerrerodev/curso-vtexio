@@ -4,7 +4,8 @@
             "orientation": "vertical"
         },
         "children": [
-            "menu-item#reto-1"
+            "menu-item#reto-1",
+            "menu-item#reto-2"
         ]
     },
     "menu-item#reto-1": {
@@ -18,6 +19,21 @@
                 "noFollow": true,
                 "tagTitle": "Reto 1",
                 "text": "Reto 1"
+            }
+        },
+        "blocks": []
+    },
+    "menu-item#reto-2": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "itemMenu-desk",
+            "itemProps": {
+                "type": "internal",
+                "href": "/reto-2",
+                "noFollow": true,
+                "tagTitle": "Reto 2",
+                "text": "Reto 2"
             }
         },
         "blocks": []

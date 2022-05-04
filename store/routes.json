@@ -13,5 +13,8 @@
     },
     "store.custom#reto-1":{
         "path": "/reto-1"
+    },
+    "store.custom#reto-2":{
+        "path": "/reto-2"
     }
 }
