@@ -13,5 +13,8 @@
     },
     "store.custom#reto-1":{
         "path": "/reto-1"
+    },
+    "store.custom#store-drawer":{
+        "path": "/store-drawer"
     }
 }
