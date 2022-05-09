@@ -1,0 +1,15 @@
+.wrapper--titleRecipe .heading-level-3{
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    box-sizing: border-box;
+}
+.paragraph--descriptionRecipe{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paragraph--descriptionStep{
+    margin: 0;
+    padding: 0;
+}

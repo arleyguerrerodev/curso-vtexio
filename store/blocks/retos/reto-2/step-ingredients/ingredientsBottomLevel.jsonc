@@ -1,0 +1,101 @@
+{
+    "flex-layout.row#ingredientsBottomLevel":{
+        "children":[
+            "flex-layout.col#StepFour",
+            "flex-layout.col#StepFive",
+            "flex-layout.col#StepSix"
+        ],
+        "props":{
+            "blockClass":[
+                "ContainerSteps"
+            ]
+        }
+    },
+    "flex-layout.col#StepFour":{
+        "children":[
+            "flex-layout.row#StepFour"
+        ]
+    },
+    "flex-layout.row#StepFour":{
+        "children":[
+            "image#iconStepFour",
+            "rich-text#descripcionStepFour"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"containerIconSteps"
+        }
+    },
+    "image#iconStepFour":{
+        "props":{
+            "src":"https://imgur.com/9V8uyXo.png",
+            "maxWidth": 24,
+            "maxHeight": 24,
+            "blockClass":"iconStep"
+        }
+    },
+    "rich-text#descripcionStepFour":{
+        "props":{
+            "text":"4 a 6 comensales",
+            "blockClass":"descriptionStep"
+        }
+    },
+    "flex-layout.col#StepFive":{
+        "children":[
+            "flex-layout.row#StepFive"
+        ]
+    },
+    "flex-layout.row#StepFive":{
+        "children":[
+            "image#iconStepFive",
+            "rich-text#descripcionStepFive"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"containerIconSteps"
+        }
+    },
+    "image#iconStepFive":{
+        "props":{
+            "src":"https://i.imgur.com/xx4LO0k.png",
+            "maxWidth": 24,
+            "maxHeight": 24,
+            "blockClass":"iconStep"
+        }
+    },
+    "rich-text#descripcionStepFive":{
+        "props":{
+            "text":"S/1200 - S/1480",
+            "blockClass":"descriptionStep"
+        }
+    },
+    "flex-layout.col#StepSix":{
+        "children":[
+            "flex-layout.row#StepSix"
+        ]
+    },
+    "flex-layout.row#StepSix":{
+        "children":[
+            "image#iconStepSix",
+            "rich-text#descripcionStepSix"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"containerIconSteps"
+        }
+    },
+    "image#iconStepSix":{
+        "props":{
+            "src":"https://i.imgur.com/IhKo5Rc.png",
+            "maxWidth": 24,
+            "maxHeight": 24,
+            "blockClass":"iconStep"
+        }
+    },
+    "rich-text#descripcionStepSix":{
+        "props":{
+            "text":"País: Perú",
+            "blockClass":"descriptionStep"
+        }
+    }
+}

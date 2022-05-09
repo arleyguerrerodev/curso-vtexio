@@ -15,8 +15,8 @@
 
     "footer-layout.mobile": {
         "children": [
-            "flex-layout.row#newsletter-form",
-            "flex-layout.row#footer-1-mobile"
+            /* "flex-layout.row#newsletter-form",
+            "flex-layout.row#footer-1-mobile" */
         ]
     },
     "flex-layout.row#footer-1-desktop": {
